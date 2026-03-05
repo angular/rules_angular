@@ -21,7 +21,7 @@ def _symlink_impl(ctx):
     store_info = src[JsInfo].npm_package_store_infos.to_list()
 
     if len(store_info) == 0:
-      fail("%s has no \"npm_package_store_infos\". Ensure that is marked as a dependency and not devDependency." % ctx.attr.name)
+        fail("%s has no \"npm_package_store_infos\". Ensure that is marked as a dependency and not devDependency." % ctx.attr.name)
 
     src_dir = store_info[0].package_store_directory
 
