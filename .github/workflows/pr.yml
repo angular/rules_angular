@@ -28,7 +28,7 @@ jobs:
         run: pnpm ng-dev format changed --check ${{ github.event.pull_request.base.sha }}
 
   test:
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
         uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
