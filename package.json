@@ -9,7 +9,14 @@
   "author": "",
   "license": "ISC",
   "pnpm": {
-    "onlyBuiltDependencies": []
+    "onlyBuiltDependencies": [],
+    "packageExtensions": {
+      "grpc-gcp": {
+        "peerDependencies": {
+          "protobufjs": "*"
+        }
+      }
+    }
   },
   "packageManager": "pnpm@10.30.3",
   "engines": {
@@ -27,6 +34,7 @@
     "@angular/common": "21.0.3",
     "@angular/compiler": "21.0.3",
     "@angular/core": "21.0.3",
+    "@angular/ng-dev": "https://github.com/angular/dev-infra-private-ng-dev-builds.git#5a0a8a72a00865eb0d787908876eacb51138113a",
     "@angular/platform-browser": "21.0.3",
     "@babel/core": "^7.28.5",
     "@bazel/bazelisk": "1.26.0",
