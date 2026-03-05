@@ -1,0 +1,42 @@
+name: Pull Request
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initialize environment
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+      - name: Install node modules
+        run: pnpm install --frozen-lockfile
+      - name: Check commit message
+        run: pnpm ng-dev commit-message validate-range ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }}
+      - name: Check code format
+        run: pnpm ng-dev format changed --check ${{ github.event.pull_request.base.sha }}
+
+  test:
+    runs-on: ubunutu-latest
+    steps:
+      - name: Initialize environment
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+      - name: Setup Bazel
+        uses: angular/dev-infra/github-actions/bazel/setup@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+      - name: Setup Bazel Remote Caching
+        uses: angular/dev-infra/github-actions/bazel/configure-remote@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+        with:
+          google_credential: ${{ secrets.RBE_TRUSTED_BUILDS_USER }}
+      - name: Install node modules
+        run: pnpm bazel test --build_tests_only //...

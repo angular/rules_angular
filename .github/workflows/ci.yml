@@ -1,0 +1,31 @@
+name: CI 
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  test:
+    runs-on: ubunutu-latest
+    steps:
+      - name: Initialize environment
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+      - name: Setup Bazel
+        uses: angular/dev-infra/github-actions/bazel/setup@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+      - name: Setup Bazel Remote Caching
+        uses: angular/dev-infra/github-actions/bazel/configure-remote@c4344a4e20dbdf9cb8eeb7a7eb91431b98eabd99
+        with:
+          google_credential: ${{ secrets.RBE_TRUSTED_BUILDS_USER }}
+      - name: Install node modules
+        run: pnpm bazel test --build_tests_only //...
