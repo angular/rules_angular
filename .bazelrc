@@ -6,6 +6,15 @@ build --symlink_prefix=dist/
 # Needed as otherwise `env` of TS actions would be ignored.
 common --incompatible_merge_fixed_and_default_shell_env
 
+# Frozen lockfile
+common --lockfile_mode=error
+
+# More details on failures
+build --verbose_failures=true
+
+# CI supports colors but Bazel does not detect it.
+common --color=yes
+
 # For remote testing
 # -----
 
