@@ -38,7 +38,7 @@
     "@angular/platform-browser": "21.0.3",
     "@babel/core": "^7.28.5",
     "@bazel/bazelisk": "1.26.0",
-    "@bazel/buildifier": "^7.3.1",
+    "@bazel/buildifier": "^8.0.0",
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@types/node": "^22.10.1",
