@@ -25,17 +25,17 @@
     "pnpm": "10.30.3"
   },
   "dependencies": {
-    "@angular/compiler-cli": "21.0.3",
+    "@angular/compiler-cli": "22.0.0-next.1",
     "typescript-local": "npm:typescript@5.9.2"
   },
   "devDependencies": {
-    "@angular/build": "21.0.2",
-    "@angular/cli": "21.0.2",
-    "@angular/common": "21.0.3",
-    "@angular/compiler": "21.0.3",
-    "@angular/core": "21.0.3",
-    "@angular/ng-dev": "https://github.com/angular/dev-infra-private-ng-dev-builds.git#5a0a8a72a00865eb0d787908876eacb51138113a",
-    "@angular/platform-browser": "21.0.3",
+    "@angular/build": "22.0.0-next.0",
+    "@angular/cli": "22.0.0-next.0",
+    "@angular/common": "22.0.0-next.1",
+    "@angular/compiler": "22.0.0-next.1",
+    "@angular/core": "22.0.0-next.1",
+    "@angular/ng-dev": "https://github.com/angular/dev-infra-private-ng-dev-builds.git#22274504d05d196968998f330741f84e746d7c2c",
+    "@angular/platform-browser": "22.0.0-next.1",
     "@babel/core": "^7.28.5",
     "@bazel/bazelisk": "1.26.0",
     "@bazel/buildifier": "^8.0.0",
