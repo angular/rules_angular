@@ -20,13 +20,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
-        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@289088f61151ca796c84b7337623f79d76f7e499
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@22e0407413109186075cfebf3173549d37d4f4a4
         with:
           disable-package-manager-cache: true
       - name: Setup Bazel
-        uses: angular/dev-infra/github-actions/bazel/setup@289088f61151ca796c84b7337623f79d76f7e499
+        uses: angular/dev-infra/github-actions/bazel/setup@22e0407413109186075cfebf3173549d37d4f4a4
       - name: Setup Bazel Remote Caching
-        uses: angular/dev-infra/github-actions/bazel/configure-remote@289088f61151ca796c84b7337623f79d76f7e499
+        uses: angular/dev-infra/github-actions/bazel/configure-remote@22e0407413109186075cfebf3173549d37d4f4a4
         with:
           google_credential: ${{ secrets.RBE_TRUSTED_BUILDS_USER }}
       - name: Test

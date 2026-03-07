@@ -34,7 +34,7 @@
     "@angular/common": "22.0.0-next.1",
     "@angular/compiler": "22.0.0-next.1",
     "@angular/core": "22.0.0-next.1",
-    "@angular/ng-dev": "https://github.com/angular/dev-infra-private-ng-dev-builds.git#22274504d05d196968998f330741f84e746d7c2c",
+    "@angular/ng-dev": "https://github.com/angular/dev-infra-private-ng-dev-builds.git#a92db02ad1facfddb722d181709f774b4892593d",
     "@angular/platform-browser": "22.0.0-next.1",
     "@babel/core": "^7.28.5",
     "@bazel/bazelisk": "1.26.0",
