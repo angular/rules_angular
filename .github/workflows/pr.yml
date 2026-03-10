@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
-        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@42cdb151b217e714c6e85a41ef3d2adddf8321d3
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@11e0778fb3366e1d35655900ae666a15ce2891cc
       - name: Install node modules
         run: pnpm install --frozen-lockfile
       - name: Check commit message
@@ -31,12 +31,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Initialize environment
-        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@42cdb151b217e714c6e85a41ef3d2adddf8321d3
+        uses: angular/dev-infra/github-actions/npm/checkout-and-setup-node@11e0778fb3366e1d35655900ae666a15ce2891cc
         with:
           disable-package-manager-cache: true
       - name: Setup Bazel
-        uses: angular/dev-infra/github-actions/bazel/setup@42cdb151b217e714c6e85a41ef3d2adddf8321d3
+        uses: angular/dev-infra/github-actions/bazel/setup@11e0778fb3366e1d35655900ae666a15ce2891cc
       - name: Setup Bazel Remote Caching
-        uses: angular/dev-infra/github-actions/bazel/configure-remote@42cdb151b217e714c6e85a41ef3d2adddf8321d3
+        uses: angular/dev-infra/github-actions/bazel/configure-remote@11e0778fb3366e1d35655900ae666a15ce2891cc
       - name: Test
         run: pnpm bazel test --build_tests_only //...
