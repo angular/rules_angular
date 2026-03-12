@@ -6,7 +6,7 @@ import path from 'path';
 // where the path to this file is passed with an `@` prefix.
 export function getArgsFromParamsFile() {
   const args = process.argv.slice(2);
-  const flagArg = args.find(s => s.startsWith('@'));
+  const flagArg = args.find((s) => s.startsWith('@'));
 
   // If Bazel uses a parameter file, we know that it passes the file\
   // in the following format: "arg0 arg1 --param-file={path_to_param_file}"

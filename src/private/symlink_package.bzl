@@ -1,5 +1,5 @@
-load("@aspect_bazel_lib//lib:paths.bzl", "relative_file")
 load("@aspect_rules_js//js:providers.bzl", "JsInfo", "js_info")
+load("@bazel_lib//lib:paths.bzl", "relative_file")
 
 DOC = """
 Rule that symlinks a `//:node_modules/<pkg>` into another `node_modules` folder.

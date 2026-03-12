@@ -33,7 +33,7 @@ function removeCommentsPlugin() {
         inputSourceMap: false, // Enabling input sourcemaps causes sourcemaps to break.
         sourceMaps: true,
         generatorOpts: {
-          shouldPrintComment: comment => {
+          shouldPrintComment: (comment) => {
             if (!comment) {
               return false;
             }
@@ -205,13 +205,13 @@ for (const info of Object.values(entrypointMetadata)) {
   input[chunkName] = entryFile;
 }
 
-const sideEffectFileMatchers = sideEffectEntryPoints.map(entryPointModule => {
+const sideEffectFileMatchers = sideEffectEntryPoints.map((entryPointModule) => {
   const entryPointDir = path.join(
     process.cwd(), // Execroot.
     path.dirname(entrypointMetadata[entryPointModule].index.path),
   );
 
-  return file => file.startsWith(`${entryPointDir}/`);
+  return (file) => file.startsWith(`${entryPointDir}/`);
 });
 
 if (dtsMode) {
@@ -244,14 +244,15 @@ const config = {
     annotations: false,
     propertyReadSideEffects: false,
     unknownGlobalSideEffects: false,
-    moduleSideEffects: id => {
-      return sideEffectFileMatchers.some(matcher => matcher(id));
+    moduleSideEffects: (id) => {
+      return sideEffectFileMatchers.some((matcher) => matcher(id));
     },
   },
   output: {
     // Rollup will add a `.d` as part of the filename instead of an extension.
     // This will avoid outputting `.d.d.ts`.
-    sanitizeFileName: fileName => (fileName.endsWith('.d') ? fileName.slice(0, -2) : fileName),
+    sanitizeFileName: (fileName) =>
+      (fileName.endsWith('.d') ? fileName.slice(0, -2) : fileName).replace(/\x00/g, ''),
     minifyInternalExports: false,
     sourcemap: !dtsMode,
     banner: bannerContent,

@@ -1,7 +1,7 @@
 "Support code used by macros in this package"
 
-load("@aspect_bazel_lib//lib:directory_path.bzl", "directory_path")
 load("@aspect_rules_js//js:defs.bzl", "js_binary")
+load("@bazel_lib//lib:directory_path.bzl", "directory_path")
 
 TEST_PATTERNS = [
     "src/**/*.spec.ts",

@@ -1,5 +1,5 @@
-load("@aspect_bazel_lib//lib:paths.bzl", "relative_file")
 load("@aspect_rules_ts//ts:defs.bzl", "TsConfigInfo")
+load("@bazel_lib//lib:paths.bzl", "relative_file")
 load("//src/ng_project/config:compilation_mode.bzl", "NgCompilationMode")
 
 def determineCompilationMode(ctx):

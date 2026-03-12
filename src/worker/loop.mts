@@ -58,7 +58,7 @@ export async function executeBuild(
     workerInputs = new Map(
       worker.req.inputs
         // Worker input paths are rooted in our virtual FS at execroot.
-        .map(i => [`/${i.path}` as AbsoluteFsPath, i.digest]),
+        .map((i) => [`/${i.path}` as AbsoluteFsPath, i.digest]),
     );
   }
 
@@ -106,7 +106,7 @@ export async function executeBuild(
   // Object.defineProperty(ts, 'sys', {value: undefined, configurable: true});
 
   const formatHost: ts.FormatDiagnosticsHost = {
-    getCanonicalFileName: f => f,
+    getCanonicalFileName: (f) => f,
     getCurrentDirectory: () => fs.pwd(),
     getNewLine: () => '\n',
   };

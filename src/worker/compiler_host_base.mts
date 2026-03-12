@@ -18,7 +18,7 @@ export function createBaseCompilerHost<Host extends ts.CompilerHost>(
       new AngularCompilerHostForVanillaCompilations(fs, options);
 
   // Support `--traceResolution`.
-  base.trace = output => console.error(output);
+  base.trace = (output) => console.error(output);
 
   return base;
 }

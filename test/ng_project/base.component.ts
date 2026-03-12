@@ -8,6 +8,6 @@ export class BaseComponent {
   counterValue = 0;
 
   updateCounter() {
-    this.counterValue++
+    this.counterValue++;
   }
 }

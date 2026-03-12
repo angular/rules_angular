@@ -1,12 +1,32 @@
 module(name = "rules_angular")
 
-bazel_dep(name = "yq.bzl", version = "0.2.0")
-bazel_dep(name = "aspect_bazel_lib", version = "2.19.3")
-bazel_dep(name = "aspect_rules_js", version = "2.4.2")
-bazel_dep(name = "aspect_rules_ts", version = "3.6.3")
-bazel_dep(name = "bazel_skylib", version = "1.8.1")
-bazel_dep(name = "jq.bzl", version = "0.1.0")
-bazel_dep(name = "rules_nodejs", version = "6.5.0")
+# Prod dependencies
+bazel_dep(name = "yq.bzl", version = "0.3.5")
+bazel_dep(name = "bazel_lib", version = "3.2.2")
+bazel_dep(name = "aspect_rules_js", version = "3.0.3")
+bazel_dep(name = "aspect_rules_ts", version = "3.8.6")
+bazel_dep(name = "bazel_skylib", version = "1.9.0")
+bazel_dep(name = "jq.bzl", version = "0.6.1")
+bazel_dep(name = "rules_nodejs", version = "6.7.3")
+
+# Dev dependencies
+bazel_dep(name = "rules_browsers", dev_dependency = True)
+local_path_override(
+    module_name = "rules_browsers",
+    path = "../rules_browsers",
+)
+
+bazel_dep(name = "rules_sass", dev_dependency = True)
+local_path_override(
+    module_name = "rules_sass",
+    path = "../rules_sass",
+)
+
+bazel_dep(name = "devinfra", dev_dependency = True)
+local_path_override(
+    module_name = "devinfra",
+    path = "../../../",
+)
 
 yq = use_extension("@yq.bzl//yq:extensions.bzl", "yq")
 use_repo(yq, "yq_toolchains")
@@ -14,31 +34,30 @@ use_repo(yq, "yq_toolchains")
 rules_ts_ext = use_extension("@aspect_rules_ts//ts:extensions.bzl", "ext")
 rules_ts_ext.deps(
     name = "rules_angular_npm_typescript",
-    # Obtained by: curl --silent https://registry.npmjs.org/typescript/5.9.2 | jq -r '.dist.integrity'
-    ts_integrity = "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==",
-    ts_version = "5.9.2",
+    ts_integrity = "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+    ts_version = "5.9.3",
 )
 use_repo(rules_ts_ext, npm_typescript = "rules_angular_npm_typescript")
 
 node = use_extension("@rules_nodejs//nodejs:extensions.bzl", "node")
 node.toolchain(
     node_repositories = {
-        "24.0.0-darwin_arm64": ("node-v24.0.0-darwin-arm64.tar.gz", "node-v24.0.0-darwin-arm64", "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"),
-        "24.0.0-darwin_amd64": ("node-v24.0.0-darwin-x64.tar.gz", "node-v24.0.0-darwin-x64", "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"),
-        "24.0.0-linux_arm64": ("node-v24.0.0-linux-arm64.tar.xz", "node-v24.0.0-linux-arm64", "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"),
-        "24.0.0-linux_ppc64le": ("node-v24.0.0-linux-ppc64le.tar.xz", "node-v24.0.0-linux-ppc64le", "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"),
-        "24.0.0-linux_s390x": ("node-v24.0.0-linux-s390x.tar.xz", "node-v24.0.0-linux-s390x", "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"),
-        "24.0.0-linux_amd64": ("node-v24.0.0-linux-x64.tar.xz", "node-v24.0.0-linux-x64", "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"),
-        "24.0.0-windows_amd64": ("node-v24.0.0-win-x64.zip", "node-v24.0.0-win-x64", "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"),
+        "24.14.0-darwin_arm64": ("node-v24.14.0-darwin-arm64.tar.gz", "node-v24.14.0-darwin-arm64", "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"),
+        "24.14.0-darwin_amd64": ("node-v24.14.0-darwin-x64.tar.gz", "node-v24.14.0-darwin-x64", "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"),
+        "24.14.0-linux_arm64": ("node-v24.14.0-linux-arm64.tar.xz", "node-v24.14.0-linux-arm64", "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"),
+        "24.14.0-linux_ppc64le": ("node-v24.14.0-linux-ppc64le.tar.xz", "node-v24.14.0-linux-ppc64le", "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"),
+        "24.14.0-linux_s390x": ("node-v24.14.0-linux-s390x.tar.xz", "node-v24.14.0-linux-s390x", "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"),
+        "24.14.0-linux_amd64": ("node-v24.14.0-linux-x64.tar.xz", "node-v24.14.0-linux-x64", "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"),
+        "24.14.0-windows_amd64": ("node-v24.14.0-win-x64.zip", "node-v24.14.0-win-x64", "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"),
     },
-    node_version = "24.0.0",
+    node_version = "24.14.0",
 )
 
 pnpm = use_extension("@aspect_rules_js//npm:extensions.bzl", "pnpm")
 pnpm.pnpm(
     name = "pnpm",
-    pnpm_version = "10.30.3",
-    pnpm_version_integrity = "sha512-yWHR4KLY41TsqlFmuCJRZmi39Ey1vZUSLVkN2Bki9gb1RzttI+xKW+Bef80Y6EiNR9l4u+mBhy8RRdBumnQAFw==",
+    pnpm_version = "10.31.0",
+    pnpm_version_integrity = "sha512-45JziL+qgHjOt5t0j/wegnToTXUWPme8IuBsDTrtQ90VMVHL8R1/gwH/SsuYxovcXK32mJUygB/6/js+SmPCaA==",
 )
 use_repo(pnpm, "pnpm")
 

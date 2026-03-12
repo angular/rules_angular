@@ -28,7 +28,7 @@ export async function bootWorker(optionalAngular?: OptionalAngular) {
     const fileCache = new FileCache();
     const programCache: ProgramCache = createProgramCache();
 
-    worker.enterWorkerLoop(async r => {
+    worker.enterWorkerLoop(async (r) => {
       if (r.inputs === undefined) {
         throw new Error('No inputs specified in `WorkRequest`.');
       }

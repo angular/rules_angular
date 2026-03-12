@@ -13,34 +13,48 @@
     "https://bcr.bazel.build/modules/aspect_bazel_lib/2.0.0/MODULE.bazel": "e118477db5c49419a88d78ebc7a2c2cea9d49600fe0f490c1903324a2c16ecd9",
     "https://bcr.bazel.build/modules/aspect_bazel_lib/2.14.0/MODULE.bazel": "2b31ffcc9bdc8295b2167e07a757dbbc9ac8906e7028e5170a3708cecaac119f",
     "https://bcr.bazel.build/modules/aspect_bazel_lib/2.19.3/MODULE.bazel": "253d739ba126f62a5767d832765b12b59e9f8d2bc88cc1572f4a73e46eb298ca",
-    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.19.3/source.json": "ffab9254c65ba945f8369297ad97ca0dec213d3adc6e07877e23a48624a8b456",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.22.5/MODULE.bazel": "004ba890363d05372a97248c37205ae64b6fa31047629cd2c0895a9d0c7779e8",
+    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.22.5/source.json": "ac2c3213df8f985785f1d0aeb7f0f73d5324e6e67d593d9b9470fb74a25d4a9b",
     "https://bcr.bazel.build/modules/aspect_bazel_lib/2.7.7/MODULE.bazel": "491f8681205e31bb57892d67442ce448cda4f472a8e6b3dc062865e29a64f89c",
     "https://bcr.bazel.build/modules/aspect_bazel_lib/2.8.1/MODULE.bazel": "812d2dd42f65dca362152101fbec418029cc8fd34cbad1a2fde905383d705838",
-    "https://bcr.bazel.build/modules/aspect_bazel_lib/2.9.3/MODULE.bazel": "66baf724dbae7aff4787bf2245cc188d50cb08e07789769730151c0943587c14",
+    "https://bcr.bazel.build/modules/aspect_rules_esbuild/0.25.1/MODULE.bazel": "9b931b3e483bd8eedb6966bda6df07d801f70ccb4896231b4e5e711b5130f3aa",
+    "https://bcr.bazel.build/modules/aspect_rules_esbuild/0.25.1/source.json": "a0b72e23ed06113f3878cb635d586b4045ef37750983467af72fe0315c3a2fcd",
+    "https://bcr.bazel.build/modules/aspect_rules_jasmine/2.0.4/MODULE.bazel": "fbb819eb8b7e5d7f67fdd38f7cecb413e287594cd666ce192c72c8828527775a",
+    "https://bcr.bazel.build/modules/aspect_rules_jasmine/2.0.4/source.json": "81ffb708333cd98ec3c0b4cc004f4d5cf92a16914b5196a2892c45141bba7cff",
     "https://bcr.bazel.build/modules/aspect_rules_js/2.0.0/MODULE.bazel": "b45b507574aa60a92796e3e13c195cd5744b3b8aff516a9c0cb5ae6a048161c5",
-    "https://bcr.bazel.build/modules/aspect_rules_js/2.4.2/MODULE.bazel": "0d01db38b96d25df7ed952a5e96eac4b3802723d146961974bf020f6dd07591d",
-    "https://bcr.bazel.build/modules/aspect_rules_js/2.4.2/source.json": "854a600536a6fa4efae974a19271ae3d86d39705094cc41331724583398bb0b6",
-    "https://bcr.bazel.build/modules/aspect_rules_ts/3.6.3/MODULE.bazel": "d09db394970f076176ce7bab5b5fa7f0d560fd4f30b8432ea5e2c2570505b130",
-    "https://bcr.bazel.build/modules/aspect_rules_ts/3.6.3/source.json": "641e58c62e5090d52a0d3538451893acdb2d79a36e8b3d1d30a013c580bc2058",
-    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.2.3/MODULE.bazel": "20f53b145f40957a51077ae90b37b7ce83582a1daf9350349f0f86179e19dd0d",
-    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.2.3/source.json": "e0a34c61e5315d41e9b90e4771a60e0924f80a2810ec15e7d489e6249c0dea56",
+    "https://bcr.bazel.build/modules/aspect_rules_js/3.0.3/MODULE.bazel": "28a30e8fc33bf64a67835d64d124f6e05a7d59648dcb27b110fb3502f761e503",
+    "https://bcr.bazel.build/modules/aspect_rules_js/3.0.3/source.json": "bb8fff9a304452e1042af9522ad1d54d6f1d1fdf71c5127deadb6fd156654193",
+    "https://bcr.bazel.build/modules/aspect_rules_ts/3.8.6/MODULE.bazel": "371bacab13c9c36323384b56c7cabfde1982b69674e78729e1ddd1edd54d984e",
+    "https://bcr.bazel.build/modules/aspect_rules_ts/3.8.6/source.json": "b87a583fa2aa5c546221e3c514c883b2344c9284f27347759a5ff700deceb012",
+    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.2.6/MODULE.bazel": "cafb8781ad591bc57cc765dca5fefab08cf9f65af363d162b79d49205c7f8af7",
+    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.2.8/MODULE.bazel": "aa975a83e72bcaac62ee61ab12b788ea324a1d05c4aab28aadb202f647881679",
+    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.3.3/MODULE.bazel": "37c764292861c2f70314efa9846bb6dbb44fc0308903b3285da6528305450183",
+    "https://bcr.bazel.build/modules/aspect_tools_telemetry/0.3.3/source.json": "605086bbc197743a0d360f7ddc550a1d4dfa0441bc807236e17170f636153348",
     "https://bcr.bazel.build/modules/bazel_features/1.1.1/MODULE.bazel": "27b8c79ef57efe08efccbd9dd6ef70d61b4798320b8d3c134fd571f78963dbcd",
     "https://bcr.bazel.build/modules/bazel_features/1.11.0/MODULE.bazel": "f9382337dd5a474c3b7d334c2f83e50b6eaedc284253334cf823044a26de03e8",
     "https://bcr.bazel.build/modules/bazel_features/1.15.0/MODULE.bazel": "d38ff6e517149dc509406aca0db3ad1efdd890a85e049585b7234d04238e2a4d",
     "https://bcr.bazel.build/modules/bazel_features/1.17.0/MODULE.bazel": "039de32d21b816b47bd42c778e0454217e9c9caac4a3cf8e15c7231ee3ddee4d",
     "https://bcr.bazel.build/modules/bazel_features/1.18.0/MODULE.bazel": "1be0ae2557ab3a72a57aeb31b29be347bcdc5d2b1eb1e70f39e3851a7e97041a",
     "https://bcr.bazel.build/modules/bazel_features/1.19.0/MODULE.bazel": "59adcdf28230d220f0067b1f435b8537dd033bfff8db21335ef9217919c7fb58",
+    "https://bcr.bazel.build/modules/bazel_features/1.21.0/MODULE.bazel": "675642261665d8eea09989aa3b8afb5c37627f1be178382c320d1b46afba5e3b",
+    "https://bcr.bazel.build/modules/bazel_features/1.28.0/MODULE.bazel": "4b4200e6cbf8fa335b2c3f43e1d6ef3e240319c33d43d60cc0fbd4b87ece299d",
     "https://bcr.bazel.build/modules/bazel_features/1.30.0/MODULE.bazel": "a14b62d05969a293b80257e72e597c2da7f717e1e69fa8b339703ed6731bec87",
-    "https://bcr.bazel.build/modules/bazel_features/1.30.0/source.json": "b07e17f067fe4f69f90b03b36ef1e08fe0d1f3cac254c1241a1818773e3423bc",
+    "https://bcr.bazel.build/modules/bazel_features/1.34.0/MODULE.bazel": "e8475ad7c8965542e0c7aac8af68eb48c4af904be3d614b6aa6274c092c2ea1e",
+    "https://bcr.bazel.build/modules/bazel_features/1.39.0/MODULE.bazel": "28739425c1fc283c91931619749c832b555e60bcd1010b40d8441ce0a5cf726d",
     "https://bcr.bazel.build/modules/bazel_features/1.4.1/MODULE.bazel": "e45b6bb2350aff3e442ae1111c555e27eac1d915e77775f6fdc4b351b758b5d7",
+    "https://bcr.bazel.build/modules/bazel_features/1.41.0/MODULE.bazel": "6e0f87fafed801273c371d41e22a15a6f8abf83fdd7f87d5e44ad317b94433d0",
+    "https://bcr.bazel.build/modules/bazel_features/1.41.0/source.json": "8fd525b31b0883c47e0593443cdd10219b94a7556b3195fc02d75c86c66cfe30",
     "https://bcr.bazel.build/modules/bazel_features/1.9.0/MODULE.bazel": "885151d58d90d8d9c811eb75e3288c11f850e1d6b481a8c9f766adee4712358b",
     "https://bcr.bazel.build/modules/bazel_features/1.9.1/MODULE.bazel": "8f679097876a9b609ad1f60249c49d68bfab783dd9be012faf9d82547b14815a",
+    "https://bcr.bazel.build/modules/bazel_lib/3.0.0-rc.0/MODULE.bazel": "d6e00979a98ac14ada5e31c8794708b41434d461e7e7ca39b59b765e6d233b18",
+    "https://bcr.bazel.build/modules/bazel_lib/3.0.0/MODULE.bazel": "22b70b80ac89ad3f3772526cd9feee2fa412c2b01933fea7ed13238a448d370d",
+    "https://bcr.bazel.build/modules/bazel_lib/3.2.2/MODULE.bazel": "e2c890c8a515d6bca9c66d47718aa9e44b458fde64ec7204b8030bf2d349058c",
+    "https://bcr.bazel.build/modules/bazel_lib/3.2.2/source.json": "9e84e115c20e14652c5c21401ae85ff4daa8702e265b5c0b3bf89353f17aa212",
     "https://bcr.bazel.build/modules/bazel_skylib/1.0.3/MODULE.bazel": "bcb0fd896384802d1ad283b4e4eb4d718eebd8cb820b0a2c3a347fb971afd9d8",
     "https://bcr.bazel.build/modules/bazel_skylib/1.1.1/MODULE.bazel": "1add3e7d93ff2e6998f9e118022c84d163917d912f5afafb3058e3d2f1545b5e",
     "https://bcr.bazel.build/modules/bazel_skylib/1.2.0/MODULE.bazel": "44fe84260e454ed94ad326352a698422dbe372b21a1ac9f3eab76eb531223686",
     "https://bcr.bazel.build/modules/bazel_skylib/1.2.1/MODULE.bazel": "f35baf9da0efe45fa3da1696ae906eea3d615ad41e2e3def4aeb4e8bc0ef9a7a",
     "https://bcr.bazel.build/modules/bazel_skylib/1.3.0/MODULE.bazel": "20228b92868bf5cfc41bda7afc8a8ba2a543201851de39d990ec957b513579c5",
-    "https://bcr.bazel.build/modules/bazel_skylib/1.4.0/MODULE.bazel": "2ab127ef8d56a739a99bb2ce00ec4c7d1ecc7977d4370c0ca6efd0d8f03d6d99",
     "https://bcr.bazel.build/modules/bazel_skylib/1.4.1/MODULE.bazel": "a0dcb779424be33100dcae821e9e27e4f2901d9dfd5333efe5ac6a8d7ab75e1d",
     "https://bcr.bazel.build/modules/bazel_skylib/1.4.2/MODULE.bazel": "3bd40978e7a1fac911d5989e6b09d8f64921865a45822d8b09e815eaa726a651",
     "https://bcr.bazel.build/modules/bazel_skylib/1.5.0/MODULE.bazel": "32880f5e2945ce6a03d1fbd588e9198c0a959bb42297b2cfaf1685b7bc32e138",
@@ -48,16 +62,23 @@
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.0/MODULE.bazel": "0db596f4563de7938de764cc8deeabec291f55e8ec15299718b93c4423e9796d",
     "https://bcr.bazel.build/modules/bazel_skylib/1.7.1/MODULE.bazel": "3120d80c5861aa616222ec015332e5f8d3171e062e3e804a2a0253e1be26e59b",
     "https://bcr.bazel.build/modules/bazel_skylib/1.8.1/MODULE.bazel": "88ade7293becda963e0e3ea33e7d54d3425127e0a326e0d17da085a5f1f03ff6",
-    "https://bcr.bazel.build/modules/bazel_skylib/1.8.1/source.json": "7ebaefba0b03efe59cac88ed5bbc67bcf59a3eff33af937345ede2a38b2d368a",
+    "https://bcr.bazel.build/modules/bazel_skylib/1.8.2/MODULE.bazel": "69ad6927098316848b34a9142bcc975e018ba27f08c4ff403f50c1b6e646ca67",
+    "https://bcr.bazel.build/modules/bazel_skylib/1.9.0/MODULE.bazel": "72997b29dfd95c3fa0d0c48322d05590418edef451f8db8db5509c57875fb4b7",
+    "https://bcr.bazel.build/modules/bazel_skylib/1.9.0/source.json": "7ad77c1e8c1b84222d9b3f3cae016a76639435744c19330b0b37c0a3c9da7dc0",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/MODULE.bazel": "2e8dd40ede9c454042645fd8d8d0cd1527966aa5c919de86661e62953cd73d84",
     "https://bcr.bazel.build/modules/buildozer/7.1.2/source.json": "c9028a501d2db85793a6996205c8de120944f50a0d570438fcae0457a5f9d1f8",
+    "https://bcr.bazel.build/modules/gawk/5.3.2.bcr.1/MODULE.bazel": "cdf8cbe5ee750db04b78878c9633cc76e80dcf4416cbe982ac3a9222f80713c8",
+    "https://bcr.bazel.build/modules/gawk/5.3.2.bcr.3/MODULE.bazel": "f1b7bb2dd53e8f2ef984b39485ec8a44e9076dda5c4b8efd2fb4c6a6e856a31d",
+    "https://bcr.bazel.build/modules/gawk/5.3.2.bcr.3/source.json": "ebe931bfe362e4b41e59ee00a528db6074157ff2ced92eb9e970acab2e1089c9",
     "https://bcr.bazel.build/modules/google_benchmark/1.8.2/MODULE.bazel": "a70cf1bba851000ba93b58ae2f6d76490a9feb74192e57ab8e8ff13c34ec50cb",
     "https://bcr.bazel.build/modules/googletest/1.11.0/MODULE.bazel": "3a83f095183f66345ca86aa13c58b59f9f94a2f81999c093d4eeaa2d262d12f4",
     "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/MODULE.bazel": "22c31a561553727960057361aa33bf20fb2e98584bc4fec007906e27053f80c6",
     "https://bcr.bazel.build/modules/googletest/1.14.0.bcr.1/source.json": "41e9e129f80d8c8bf103a7acc337b76e54fad1214ac0a7084bf24f4cd924b8b4",
     "https://bcr.bazel.build/modules/googletest/1.14.0/MODULE.bazel": "cfbcbf3e6eac06ef9d85900f64424708cc08687d1b527f0ef65aa7517af8118f",
     "https://bcr.bazel.build/modules/jq.bzl/0.1.0/MODULE.bazel": "2ce69b1af49952cd4121a9c3055faa679e748ce774c7f1fda9657f936cae902f",
-    "https://bcr.bazel.build/modules/jq.bzl/0.1.0/source.json": "746bf13cac0860f091df5e4911d0c593971cd8796b5ad4e809b2f8e133eee3d5",
+    "https://bcr.bazel.build/modules/jq.bzl/0.4.0/MODULE.bazel": "a7b39b37589f2b0dad53fd6c1ccaabbdb290330caa920d7ef3e6aad068cd4ab2",
+    "https://bcr.bazel.build/modules/jq.bzl/0.6.1/MODULE.bazel": "f30c46e0a08a9f7566a8bf60a43d48abea960cd7f57b315b01e2762f1537eb52",
+    "https://bcr.bazel.build/modules/jq.bzl/0.6.1/source.json": "9ca9e2f90baa6a5bb0a49626ed9528554ec83165adf47b39792673ecc7feda22",
     "https://bcr.bazel.build/modules/jsoncpp/1.9.5/MODULE.bazel": "31271aedc59e815656f5736f282bb7509a97c7ecb43e927ac1a37966e0578075",
     "https://bcr.bazel.build/modules/jsoncpp/1.9.5/source.json": "4108ee5085dd2885a341c7fab149429db457b3169b86eb081fa245eadf69169d",
     "https://bcr.bazel.build/modules/libpfm/4.11.0/MODULE.bazel": "45061ff025b301940f1e30d2c16bea596c25b176c8b6b3087e92615adbd52902",
@@ -65,19 +86,22 @@
     "https://bcr.bazel.build/modules/package_metadata/0.0.2/source.json": "e53a759a72488d2c0576f57491ef2da0cf4aab05ac0997314012495935531b73",
     "https://bcr.bazel.build/modules/platforms/0.0.10/MODULE.bazel": "8cb8efaf200bdeb2150d93e162c40f388529a25852b332cec879373771e48ed5",
     "https://bcr.bazel.build/modules/platforms/0.0.11/MODULE.bazel": "0daefc49732e227caa8bfa834d65dc52e8cc18a2faf80df25e8caea151a9413f",
-    "https://bcr.bazel.build/modules/platforms/0.0.11/source.json": "f7e188b79ebedebfe75e9e1d098b8845226c7992b307e28e1496f23112e8fc29",
     "https://bcr.bazel.build/modules/platforms/0.0.4/MODULE.bazel": "9b328e31ee156f53f3c416a64f8491f7eb731742655a47c9eec4703a71644aee",
     "https://bcr.bazel.build/modules/platforms/0.0.5/MODULE.bazel": "5733b54ea419d5eaf7997054bb55f6a1d0b5ff8aedf0176fef9eea44f3acda37",
     "https://bcr.bazel.build/modules/platforms/0.0.6/MODULE.bazel": "ad6eeef431dc52aefd2d77ed20a4b353f8ebf0f4ecdd26a807d2da5aa8cd0615",
     "https://bcr.bazel.build/modules/platforms/0.0.7/MODULE.bazel": "72fd4a0ede9ee5c021f6a8dd92b503e089f46c227ba2813ff183b71616034814",
     "https://bcr.bazel.build/modules/platforms/0.0.8/MODULE.bazel": "9f142c03e348f6d263719f5074b21ef3adf0b139ee4c5133e2aa35664da9eb2d",
+    "https://bcr.bazel.build/modules/platforms/1.0.0/MODULE.bazel": "f05feb42b48f1b3c225e4ccf351f367be0371411a803198ec34a389fb22aa580",
+    "https://bcr.bazel.build/modules/platforms/1.0.0/source.json": "f4ff1fd412e0246fd38c82328eb209130ead81d62dcd5a9e40910f867f733d96",
     "https://bcr.bazel.build/modules/protobuf/21.7/MODULE.bazel": "a5a29bb89544f9b97edce05642fac225a808b5b7be74038ea3640fae2f8e66a7",
     "https://bcr.bazel.build/modules/protobuf/27.0/MODULE.bazel": "7873b60be88844a0a1d8f80b9d5d20cfbd8495a689b8763e76c6372998d3f64c",
     "https://bcr.bazel.build/modules/protobuf/27.1/MODULE.bazel": "703a7b614728bb06647f965264967a8ef1c39e09e8f167b3ca0bb1fd80449c0d",
     "https://bcr.bazel.build/modules/protobuf/29.0-rc2/MODULE.bazel": "6241d35983510143049943fc0d57937937122baf1b287862f9dc8590fc4c37df",
+    "https://bcr.bazel.build/modules/protobuf/29.0-rc3/MODULE.bazel": "33c2dfa286578573afc55a7acaea3cada4122b9631007c594bf0729f41c8de92",
     "https://bcr.bazel.build/modules/protobuf/29.0/MODULE.bazel": "319dc8bf4c679ff87e71b1ccfb5a6e90a6dbc4693501d471f48662ac46d04e4e",
     "https://bcr.bazel.build/modules/protobuf/29.0/source.json": "b857f93c796750eef95f0d61ee378f3420d00ee1dd38627b27193aa482f4f981",
     "https://bcr.bazel.build/modules/protobuf/3.19.0/MODULE.bazel": "6b5fbb433f760a99a22b18b6850ed5784ef0e9928a72668b66e4d7ccd47db9b0",
+    "https://bcr.bazel.build/modules/protobuf/3.19.6/MODULE.bazel": "9233edc5e1f2ee276a60de3eaa47ac4132302ef9643238f23128fea53ea12858",
     "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/MODULE.bazel": "88af1c246226d87e65be78ed49ecd1e6f5e98648558c14ce99176da041dc378e",
     "https://bcr.bazel.build/modules/pybind11_bazel/2.11.1/source.json": "be4789e951dd5301282729fe3d4938995dc4c1a81c2ff150afc9f1b0504c6022",
     "https://bcr.bazel.build/modules/re2/2023-09-01/MODULE.bazel": "cb3d511531b16cfc78a225a9e2136007a48cf8a677e4264baeab57fe78a80206",
@@ -95,7 +119,9 @@
     "https://bcr.bazel.build/modules/rules_cc/0.0.8/MODULE.bazel": "964c85c82cfeb6f3855e6a07054fdb159aced38e99a5eecf7bce9d53990afa3e",
     "https://bcr.bazel.build/modules/rules_cc/0.0.9/MODULE.bazel": "836e76439f354b89afe6a911a7adf59a6b2518fafb174483ad78a2a2fde7b1c5",
     "https://bcr.bazel.build/modules/rules_cc/0.1.1/MODULE.bazel": "2f0222a6f229f0bf44cd711dc13c858dad98c62d52bd51d8fc3a764a83125513",
-    "https://bcr.bazel.build/modules/rules_cc/0.1.1/source.json": "d61627377bd7dd1da4652063e368d9366fc9a73920bfa396798ad92172cf645c",
+    "https://bcr.bazel.build/modules/rules_cc/0.2.16/MODULE.bazel": "9242fa89f950c6ef7702801ab53922e99c69b02310c39fb6e62b2bd30df2a1d4",
+    "https://bcr.bazel.build/modules/rules_cc/0.2.16/source.json": "d03d5cde49376d87e14ec14b666c56075e5e3926930327fd5d0484a1ff2ac1cc",
+    "https://bcr.bazel.build/modules/rules_cc/0.2.4/MODULE.bazel": "1ff1223dfd24f3ecf8f028446d4a27608aa43c3f41e346d22838a4223980b8cc",
     "https://bcr.bazel.build/modules/rules_foreign_cc/0.9.0/MODULE.bazel": "c9e8c682bf75b0e7c704166d79b599f93b72cfca5ad7477df596947891feeef6",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/MODULE.bazel": "40c97d1144356f52905566c55811f13b299453a14ac7769dfba2ac38192337a8",
     "https://bcr.bazel.build/modules/rules_fuzzing/0.5.2/source.json": "c8b1e2c717646f1702290959a3302a178fb639d987ab61d548105019f11e527e",
@@ -112,6 +138,8 @@
     "https://bcr.bazel.build/modules/rules_java/7.6.1/MODULE.bazel": "2f14b7e8a1aa2f67ae92bc69d1ec0fa8d9f827c4e17ff5e5f02e91caa3b2d0fe",
     "https://bcr.bazel.build/modules/rules_java/8.14.0/MODULE.bazel": "717717ed40cc69994596a45aec6ea78135ea434b8402fb91b009b9151dd65615",
     "https://bcr.bazel.build/modules/rules_java/8.14.0/source.json": "8a88c4ca9e8759da53cddc88123880565c520503321e2566b4e33d0287a3d4bc",
+    "https://bcr.bazel.build/modules/rules_java/8.3.2/MODULE.bazel": "7336d5511ad5af0b8615fdc7477535a2e4e723a357b6713af439fe8cf0195017",
+    "https://bcr.bazel.build/modules/rules_java/8.5.1/MODULE.bazel": "d8a9e38cc5228881f7055a6079f6f7821a073df3744d441978e7a43e20226939",
     "https://bcr.bazel.build/modules/rules_jvm_external/4.4.2/MODULE.bazel": "a56b85e418c83eb1839819f0b515c431010160383306d13ec21959ac412d2fe7",
     "https://bcr.bazel.build/modules/rules_jvm_external/5.1/MODULE.bazel": "33f6f999e03183f7d088c9be518a63467dfd0be94a11d0055fe2d210f89aa909",
     "https://bcr.bazel.build/modules/rules_jvm_external/5.2/MODULE.bazel": "d9351ba35217ad0de03816ef3ed63f89d411349353077348a45348b096615036",
@@ -127,12 +155,13 @@
     "https://bcr.bazel.build/modules/rules_license/1.0.0/MODULE.bazel": "a7fda60eefdf3d8c827262ba499957e4df06f659330bbe6cdbdb975b768bb65c",
     "https://bcr.bazel.build/modules/rules_license/1.0.0/source.json": "a52c89e54cc311196e478f8382df91c15f7a2bfdf4c6cd0e2675cc2ff0b56efb",
     "https://bcr.bazel.build/modules/rules_nodejs/6.2.0/MODULE.bazel": "ec27907f55eb34705adb4e8257952162a2d4c3ed0f0b3b4c3c1aad1fac7be35e",
-    "https://bcr.bazel.build/modules/rules_nodejs/6.3.0/MODULE.bazel": "45345e4aba35dd6e4701c1eebf5a4e67af4ed708def9ebcdc6027585b34ee52d",
     "https://bcr.bazel.build/modules/rules_nodejs/6.5.0/MODULE.bazel": "546d0cf79f36f9f6e080816045f97234b071c205f4542e3351bd4424282a8810",
-    "https://bcr.bazel.build/modules/rules_nodejs/6.5.0/source.json": "ac075bc5babebc25a0adc88ee885f2c8d8520d141f6e139ba9dfa0eedb5be908",
+    "https://bcr.bazel.build/modules/rules_nodejs/6.7.3/MODULE.bazel": "c22a48b2a0dbf05a9dc5f83837bbc24c226c1f6e618de3c3a610044c9f336056",
+    "https://bcr.bazel.build/modules/rules_nodejs/6.7.3/source.json": "a3f966f4415a8a6545e560ee5449eac95cc633f96429d08e87c87775c72f5e09",
     "https://bcr.bazel.build/modules/rules_pkg/0.7.0/MODULE.bazel": "df99f03fc7934a4737122518bb87e667e62d780b610910f0447665a7e2be62dc",
     "https://bcr.bazel.build/modules/rules_pkg/1.0.1/MODULE.bazel": "5b1df97dbc29623bccdf2b0dcd0f5cb08e2f2c9050aab1092fd39a41e82686ff",
-    "https://bcr.bazel.build/modules/rules_pkg/1.0.1/source.json": "bd82e5d7b9ce2d31e380dd9f50c111d678c3bdaca190cb76b0e1c71b05e1ba8a",
+    "https://bcr.bazel.build/modules/rules_pkg/1.2.0/MODULE.bazel": "c7db3c2b407e673c7a39e3625dc05dc9f12d6682cbd82a3a5924a13b491eda7e",
+    "https://bcr.bazel.build/modules/rules_pkg/1.2.0/source.json": "9062e00845bf91a4247465d371baa837adf9b6ff44c542f73ba084f07667e1dc",
     "https://bcr.bazel.build/modules/rules_proto/4.0.0/MODULE.bazel": "a7a7b6ce9bee418c1a760b3d84f83a299ad6952f9903c67f19e4edd964894e06",
     "https://bcr.bazel.build/modules/rules_proto/5.3.0-21.7/MODULE.bazel": "e8dff86b0971688790ae75528fe1813f71809b5afd57facb44dad9e8eca631b7",
     "https://bcr.bazel.build/modules/rules_proto/6.0.0/MODULE.bazel": "b531d7f09f58dce456cd61b4579ce8c86b38544da75184eadaf0a7cb7966453f",
@@ -146,7 +175,8 @@
     "https://bcr.bazel.build/modules/rules_python/0.31.0/MODULE.bazel": "93a43dc47ee570e6ec9f5779b2e64c1476a6ce921c48cc9a1678a91dd5f8fd58",
     "https://bcr.bazel.build/modules/rules_python/0.4.0/MODULE.bazel": "9208ee05fd48bf09ac60ed269791cf17fb343db56c8226a720fbb1cdf467166c",
     "https://bcr.bazel.build/modules/rules_python/0.40.0/MODULE.bazel": "9d1a3cd88ed7d8e39583d9ffe56ae8a244f67783ae89b60caafc9f5cf318ada7",
-    "https://bcr.bazel.build/modules/rules_python/0.40.0/source.json": "939d4bd2e3110f27bfb360292986bb79fd8dcefb874358ccd6cdaa7bda029320",
+    "https://bcr.bazel.build/modules/rules_python/1.0.0/MODULE.bazel": "898a3d999c22caa585eb062b600f88654bf92efb204fa346fb55f6f8edffca43",
+    "https://bcr.bazel.build/modules/rules_python/1.0.0/source.json": "b0162a65c6312e45e7912e39abd1a7f8856c2c7e41ecc9b6dc688a6f6400a917",
     "https://bcr.bazel.build/modules/rules_shell/0.2.0/MODULE.bazel": "fda8a652ab3c7d8fee214de05e7a9916d8b28082234e8d2c0094505c5268ed3c",
     "https://bcr.bazel.build/modules/rules_shell/0.4.1/MODULE.bazel": "00e501db01bbf4e3e1dd1595959092c2fadf2087b2852d3f553b5370f5633592",
     "https://bcr.bazel.build/modules/rules_shell/0.4.1/source.json": "4757bd277fe1567763991c4425b483477bb82e35e777a56fd846eb5cceda324a",
@@ -157,14 +187,20 @@
     "https://bcr.bazel.build/modules/stardoc/0.6.2/MODULE.bazel": "7060193196395f5dd668eda046ccbeacebfd98efc77fed418dbe2b82ffaa39fd",
     "https://bcr.bazel.build/modules/stardoc/0.7.0/MODULE.bazel": "05e3d6d30c099b6770e97da986c53bd31844d7f13d41412480ea265ac9e8079c",
     "https://bcr.bazel.build/modules/stardoc/0.7.1/MODULE.bazel": "3548faea4ee5dda5580f9af150e79d0f6aea934fc60c1cc50f4efdd9420759e7",
-    "https://bcr.bazel.build/modules/stardoc/0.7.1/source.json": "b6500ffcd7b48cd72c29bb67bcac781e12701cc0d6d55d266a652583cfcdab01",
+    "https://bcr.bazel.build/modules/stardoc/0.7.2/MODULE.bazel": "fc152419aa2ea0f51c29583fab1e8c99ddefd5b3778421845606ee628629e0e5",
+    "https://bcr.bazel.build/modules/stardoc/0.7.2/source.json": "58b029e5e901d6802967754adf0a9056747e8176f017cfe3607c0851f4d42216",
     "https://bcr.bazel.build/modules/tar.bzl/0.2.1/MODULE.bazel": "52d1c00a80a8cc67acbd01649e83d8dd6a9dc426a6c0b754a04fe8c219c76468",
-    "https://bcr.bazel.build/modules/tar.bzl/0.2.1/source.json": "600ac6ff61744667a439e7b814ae59c1f29632c3984fccf8000c64c9db8d7bb6",
+    "https://bcr.bazel.build/modules/tar.bzl/0.5.1/MODULE.bazel": "7c2eb3dcfc53b0f3d6f9acdfd911ca803eaf92aadf54f8ca6e4c1f3aee288351",
+    "https://bcr.bazel.build/modules/tar.bzl/0.6.0/MODULE.bazel": "a3584b4edcfafcabd9b0ef9819808f05b372957bbdff41601429d5fd0aac2e7c",
+    "https://bcr.bazel.build/modules/tar.bzl/0.9.0/MODULE.bazel": "452a22d7f02b1c9d7a22ab25edf20f46f3e1101f0f67dc4bfbf9a474ddf02445",
+    "https://bcr.bazel.build/modules/tar.bzl/0.9.0/source.json": "c732760a374831a2cf5b08839e4be75017196b4d796a5aa55235272ee17cd839",
     "https://bcr.bazel.build/modules/upb/0.0.0-20220923-a547704/MODULE.bazel": "7298990c00040a0e2f121f6c32544bab27d4452f80d9ce51349b1a28f3005c43",
     "https://bcr.bazel.build/modules/yq.bzl/0.1.1/MODULE.bazel": "9039681f9bcb8958ee2c87ffc74bdafba9f4369096a2b5634b88abc0eaefa072",
-    "https://bcr.bazel.build/modules/yq.bzl/0.2.0/MODULE.bazel": "6f3a675677db8885be4d607fde14cc51829715e3a879fb016eb9bf336786ce6d",
-    "https://bcr.bazel.build/modules/yq.bzl/0.2.0/source.json": "ff33c6f75da6848caade494240b6824cf00e7e6b8892100f4253984e1dfae2af",
+    "https://bcr.bazel.build/modules/yq.bzl/0.3.2/MODULE.bazel": "0384efa70e8033d842ea73aa4b7199fa099709e236a7264345c03937166670b6",
+    "https://bcr.bazel.build/modules/yq.bzl/0.3.5/MODULE.bazel": "130c603e54be717bdf84100210f06598a0d2b4b4e01888fb01b70f50f41767ec",
+    "https://bcr.bazel.build/modules/yq.bzl/0.3.5/source.json": "1ae7bdc03cb26aaa8bd2bceadf65e90d90f0b2d03008ba9a0564da2e21396c39",
     "https://bcr.bazel.build/modules/zlib/1.2.11/MODULE.bazel": "07b389abc85fdbca459b69e2ec656ae5622873af3f845e1c9d80fe179f3effa0",
+    "https://bcr.bazel.build/modules/zlib/1.2.12/MODULE.bazel": "3b1a8834ada2a883674be8cbd36ede1b6ec481477ada359cd2d3ddc562340b27",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/MODULE.bazel": "eec517b5bbe5492629466e11dae908d043364302283de25581e3eb944326c4ca",
     "https://bcr.bazel.build/modules/zlib/1.3.1.bcr.5/source.json": "22bc55c47af97246cfc093d0acf683a7869377de362b5d1c552c2c2e16b7a806",
     "https://bcr.bazel.build/modules/zlib/1.3.1/MODULE.bazel": "751c9940dcfe869f5f7274e1295422a34623555916eb98c174c1e945594bf198"
@@ -174,7 +210,7 @@
     "//setup:extensions.bzl%rules_angular": {
       "general": {
         "bzlTransitiveDigest": "fkaH7HMicL3g7/NDaFzlq39kcLopMyQ3KdbDn+5CRzA=",
-        "usagesDigest": "qwBwDYRW+YittXe9sv8Bnd+n9oQr00dhI+elhN/BAdY=",
+        "usagesDigest": "jkYG7pVwv9AUzkvnnZz9u6hli0yfOwImvAzrkQK2DTY=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -185,28 +221,82 @@
               "angular_compiler_cli": "@@//:node_modules/@angular/compiler-cli",
               "typescript": "@@//:node_modules/typescript-local"
             }
+          },
+          "dev_infra_rules_angular_configurable_deps": {
+            "repoRuleId": "@@//setup:repositories.bzl%configurable_deps_repo",
+            "attributes": {
+              "angular_compiler_cli": "@@//:node_modules/@angular/compiler-cli",
+              "typescript": "@@//:node_modules/typescript"
+            }
           }
         },
         "recordedRepoMappingEntries": []
       }
     },
-    "@@aspect_rules_js+//npm:extensions.bzl%pnpm": {
+    "@@aspect_rules_esbuild+//esbuild:extensions.bzl%esbuild": {
       "general": {
-        "bzlTransitiveDigest": "2Xm6jD39SSOthrNXeYL4WG96n764EzPI13RvgsblD7I=",
-        "usagesDigest": "vvDxIqukgjmGU3iZ7GZET1T8yjosW3p6IBwi7XdB+Z4=",
+        "bzlTransitiveDigest": "GnYkDpVOnWnYv+xwyhEi0qjk3Lvp4Wei30PeSIQF5vM=",
+        "usagesDigest": "6We6zwGoawD9YXqMI0KPaxEKJTnamXBsuOekhFS2D40=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
         "generatedRepoSpecs": {
-          "pnpm": {
+          "esbuild_darwin-x64": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild:repositories.bzl%esbuild_repositories",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "integrity": "",
+              "platform": "darwin-x64"
+            }
+          },
+          "esbuild_darwin-arm64": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild:repositories.bzl%esbuild_repositories",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "integrity": "",
+              "platform": "darwin-arm64"
+            }
+          },
+          "esbuild_linux-x64": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild:repositories.bzl%esbuild_repositories",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "integrity": "",
+              "platform": "linux-x64"
+            }
+          },
+          "esbuild_linux-arm64": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild:repositories.bzl%esbuild_repositories",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "integrity": "",
+              "platform": "linux-arm64"
+            }
+          },
+          "esbuild_win32-x64": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild:repositories.bzl%esbuild_repositories",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "integrity": "",
+              "platform": "win32-x64"
+            }
+          },
+          "esbuild_toolchains": {
+            "repoRuleId": "@@aspect_rules_esbuild+//esbuild/private:toolchains_repo.bzl%toolchains_repo",
+            "attributes": {
+              "esbuild_version": "0.19.9",
+              "user_repository_name": "esbuild"
+            }
+          },
+          "npm__esbuild_0.19.9": {
             "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_rule",
             "attributes": {
-              "package": "pnpm",
-              "version": "10.30.3",
+              "key": "npm__esbuild_0.19.9",
+              "package": "esbuild",
+              "version": "0.19.9",
               "root_package": "",
               "link_workspace": "",
-              "link_packages": {},
-              "integrity": "sha512-yWHR4KLY41TsqlFmuCJRZmi39Ey1vZUSLVkN2Bki9gb1RzttI+xKW+Bef80Y6EiNR9l4u+mBhy8RRdBumnQAFw==",
+              "integrity": "sha512-U9CHtKSy+EpPsEBa+/A2gMs/h3ylBC0H0KSqIg7tpztHerLi6nrrcoUJAkNCEPumx8yJ+Byic4BVwHgRbN0TBg==",
               "url": "",
               "commit": "",
               "patch_args": [
@@ -219,22 +309,24 @@
               "npm_auth_username": "",
               "npm_auth_password": "",
               "lifecycle_hooks": [],
-              "extra_build_content": "load(\"@aspect_rules_js//js:defs.bzl\", \"js_binary\")\njs_binary(name = \"pnpm\", data = glob([\"package/**\"]), entry_point = \"package/dist/pnpm.cjs\", visibility = [\"//visibility:public\"])",
+              "extra_build_content": "",
+              "generate_package_json_bzl": false,
               "generate_bzl_library_targets": false,
-              "extract_full_archive": true,
+              "extract_full_archive": false,
               "exclude_package_contents": [],
-              "system_tar": "auto"
+              "exclude_package_contents_presets": []
             }
           },
-          "pnpm__links": {
-            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links",
+          "npm__esbuild_0.19.9__links": {
+            "repoRuleId": "@@aspect_rules_js+//npm/private:npm_import.bzl%npm_import_links_rule",
             "attributes": {
-              "package": "pnpm",
-              "version": "10.30.3",
-              "dev": false,
+              "key": "npm__esbuild_0.19.9",
+              "package": "esbuild",
+              "version": "0.19.9",
               "root_package": "",
-              "link_packages": {},
               "deps": {},
+              "deps_oss": {},
+              "deps_cpus": {},
               "transitive_closure": {},
               "lifecycle_build_target": false,
               "lifecycle_hooks_env": [],
@@ -247,30 +339,26 @@
                 "//visibility:public"
               ],
               "replace_package": "",
-              "exclude_package_contents": []
+              "exclude_package_contents": [],
+              "exclude_package_contents_presets": []
             }
           }
         },
         "recordedRepoMappingEntries": [
           [
-            "aspect_bazel_lib+",
+            "aspect_rules_esbuild+",
+            "aspect_rules_js",
+            "aspect_rules_js+"
+          ],
+          [
+            "aspect_rules_esbuild+",
+            "aspect_tools_telemetry_report",
+            "aspect_tools_telemetry++telemetry+aspect_tools_telemetry_report"
+          ],
+          [
+            "aspect_rules_esbuild+",
             "bazel_skylib",
             "bazel_skylib+"
-          ],
-          [
-            "aspect_bazel_lib+",
-            "bazel_tools",
-            "bazel_tools"
-          ],
-          [
-            "aspect_bazel_lib+",
-            "tar.bzl",
-            "tar.bzl+"
-          ],
-          [
-            "aspect_rules_js+",
-            "aspect_bazel_lib",
-            "aspect_bazel_lib+"
           ],
           [
             "aspect_rules_js+",
@@ -289,6 +377,11 @@
           ],
           [
             "aspect_rules_js+",
+            "bazel_lib",
+            "bazel_lib+"
+          ],
+          [
+            "aspect_rules_js+",
             "bazel_skylib",
             "bazel_skylib+"
           ],
@@ -296,6 +389,16 @@
             "aspect_rules_js+",
             "bazel_tools",
             "bazel_tools"
+          ],
+          [
+            "aspect_rules_js+",
+            "protobuf",
+            "protobuf+"
+          ],
+          [
+            "aspect_rules_js+",
+            "tar.bzl",
+            "tar.bzl+"
           ],
           [
             "bazel_features+",
@@ -308,9 +411,29 @@
             "bazel_features++version_extension+bazel_features_version"
           ],
           [
+            "bazel_lib+",
+            "bazel_lib",
+            "bazel_lib+"
+          ],
+          [
+            "bazel_lib+",
+            "bazel_skylib",
+            "bazel_skylib+"
+          ],
+          [
+            "bazel_lib+",
+            "bazel_tools",
+            "bazel_tools"
+          ],
+          [
+            "protobuf+",
+            "proto_bazel_features",
+            "bazel_features+"
+          ],
+          [
             "tar.bzl+",
-            "aspect_bazel_lib",
-            "aspect_bazel_lib+"
+            "bazel_lib",
+            "bazel_lib+"
           ],
           [
             "tar.bzl+",
@@ -327,8 +450,8 @@
     },
     "@@aspect_rules_ts+//ts:extensions.bzl%ext": {
       "general": {
-        "bzlTransitiveDigest": "mfPr9fdR23wlGeHRS0L5bSzd6qOh00dFe0Kdg4xfa/E=",
-        "usagesDigest": "lHJsTMsxO8rL2c94CylNR53nIzYyioh2Lg40bzQfeZc=",
+        "bzlTransitiveDigest": "0PprNyRYWkfOXKNvI8gaaD69N+xwJfjp1B9PAbgTdTI=",
+        "usagesDigest": "WqIJlIDTztVAH7baBXQs73yK0w/RX6ceiulxflONzyU=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -336,14 +459,28 @@
           "rules_angular_npm_typescript": {
             "repoRuleId": "@@aspect_rules_ts+//ts/private:npm_repositories.bzl%http_archive_version",
             "attributes": {
-              "bzlmod": true,
-              "version": "5.9.2",
-              "integrity": "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==",
-              "build_file": "@@aspect_rules_ts+//ts:BUILD.typescript",
-              "build_file_substitutions": {
-                "bazel_worker_version": "5.4.2",
-                "google_protobuf_version": "3.20.1"
-              },
+              "version": "5.9.3",
+              "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+              "urls": [
+                "https://registry.npmjs.org/typescript/-/typescript-{}.tgz"
+              ]
+            }
+          },
+          "npm_rules_browsers_typescript": {
+            "repoRuleId": "@@aspect_rules_ts+//ts/private:npm_repositories.bzl%http_archive_version",
+            "attributes": {
+              "version": "5.8.2",
+              "integrity": "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==",
+              "urls": [
+                "https://registry.npmjs.org/typescript/-/typescript-{}.tgz"
+              ]
+            }
+          },
+          "npm_typescript": {
+            "repoRuleId": "@@aspect_rules_ts+//ts/private:npm_repositories.bzl%http_archive_version",
+            "attributes": {
+              "version": "5.9.3",
+              "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
               "urls": [
                 "https://registry.npmjs.org/typescript/-/typescript-{}.tgz"
               ]
@@ -351,6 +488,11 @@
           }
         },
         "recordedRepoMappingEntries": [
+          [
+            "aspect_rules_ts+",
+            "aspect_rules_ts",
+            "aspect_rules_ts+"
+          ],
           [
             "aspect_rules_ts+",
             "bazel_tools",
@@ -361,8 +503,8 @@
     },
     "@@aspect_tools_telemetry+//:extension.bzl%telemetry": {
       "general": {
-        "bzlTransitiveDigest": "cLuD0cAZWm2SwvVSu2NHX+0x33L7A5+Shk+6Qcw9oik=",
-        "usagesDigest": "nWmdtfYtI/pySh2HglsevnzK2xLJ5Y+RQhXbKHWJbxU=",
+        "bzlTransitiveDigest": "cl5A2O84vDL6Tt+Qga8FCj1DUDGqn+e7ly5rZ+4xvcc=",
+        "usagesDigest": "YATHvfp8HbYJG767u1IuL+cD6YhemuI/CbwQCs3DXMA=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -371,8 +513,11 @@
             "repoRuleId": "@@aspect_tools_telemetry+//:extension.bzl%tel_repository",
             "attributes": {
               "deps": {
-                "aspect_rules_js": "2.4.2",
-                "aspect_tools_telemetry": "0.2.3"
+                "aspect_rules_js": "3.0.3",
+                "aspect_rules_ts": "3.8.6",
+                "aspect_tools_telemetry": "0.3.3",
+                "aspect_rules_jasmine": "2.0.4",
+                "aspect_rules_esbuild": "0.25.1"
               }
             }
           }
@@ -380,8 +525,8 @@
         "recordedRepoMappingEntries": [
           [
             "aspect_tools_telemetry+",
-            "aspect_bazel_lib",
-            "aspect_bazel_lib+"
+            "bazel_lib",
+            "bazel_lib+"
           ],
           [
             "aspect_tools_telemetry+",
@@ -423,6 +568,218 @@
             "bazel_tools"
           ]
         ]
+      }
+    },
+    "@@rules_browsers+//browsers:extensions.bzl%browsers": {
+      "general": {
+        "bzlTransitiveDigest": "Bm6fiKpWy96aLohOlLCP36ARVxRLZm/R+smhsb2HzmI=",
+        "usagesDigest": "FmXYJVoVJlnfUU8x8gObSvu4qWcco/9Faw61aC/wBF0=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "rules_browsers_chrome_linux": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "1ac33f89306327af43be159c03ca4a26486de0858f42fe52394acdef50364143",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/linux64/chrome-headless-shell-linux64.zip"
+              ],
+              "named_files": {
+                "CHROME-HEADLESS-SHELL": "chrome-headless-shell-linux64/chrome-headless-shell"
+              },
+              "exclude_patterns": [
+                "**/*.log"
+              ],
+              "exports_files": [
+                "chrome-headless-shell-linux64/chrome-headless-shell"
+              ]
+            }
+          },
+          "rules_browsers_chrome_mac": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "169ff49c465cfda52931395e61861e146dfc5013e92c01ca792db5acea858d0b",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/mac-x64/chrome-headless-shell-mac-x64.zip"
+              ],
+              "named_files": {
+                "CHROME-HEADLESS-SHELL": "chrome-headless-shell-mac-x64/chrome-headless-shell"
+              },
+              "exclude_patterns": [
+                "**/*.log"
+              ],
+              "exports_files": [
+                "chrome-headless-shell-mac-x64/chrome-headless-shell"
+              ]
+            }
+          },
+          "rules_browsers_chrome_mac_arm": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "aeaaaaa4d68193a21bed04c44ddeb1230232707b4ea1d845a92925787509cd8e",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+              ],
+              "named_files": {
+                "CHROME-HEADLESS-SHELL": "chrome-headless-shell-mac-arm64/chrome-headless-shell"
+              },
+              "exclude_patterns": [
+                "**/*.log"
+              ],
+              "exports_files": [
+                "chrome-headless-shell-mac-arm64/chrome-headless-shell"
+              ]
+            }
+          },
+          "rules_browsers_chrome_win64": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "4d6d79bcbcb22084df6e3a3d3a2caff67d6c0fa488d63f0c7ec1526f9553db8c",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/win64/chrome-headless-shell-win64.zip"
+              ],
+              "named_files": {
+                "CHROME-HEADLESS-SHELL": "chrome-headless-shell-win64/chrome-headless-shell.exe"
+              },
+              "exclude_patterns": [
+                "**/*.log"
+              ],
+              "exports_files": [
+                "chrome-headless-shell-win64/chrome-headless-shell.exe"
+              ]
+            }
+          },
+          "rules_browsers_chromedriver_linux": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "0607ccf6810a07ae08cac6443beac8b23f88dd53c7f1e0299e22d65f7cd2d020",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/linux64/chromedriver-linux64.zip"
+              ],
+              "named_files": {
+                "CHROMEDRIVER": "chromedriver-linux64/chromedriver"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "chromedriver-linux64/chromedriver"
+              ]
+            }
+          },
+          "rules_browsers_chromedriver_mac": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "0f512a9dd683ed4c41e609d8d02c07807497dbad3ab2f95f0d583486be7b8cff",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/mac-x64/chromedriver-mac-x64.zip"
+              ],
+              "named_files": {
+                "CHROMEDRIVER": "chromedriver-mac-x64/chromedriver"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "chromedriver-mac-x64/chromedriver"
+              ]
+            }
+          },
+          "rules_browsers_chromedriver_mac_arm": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "7d6fc6d17de1733eb6739d1ea16d085c8df1568bcf9fa0d130c2784b27f38268",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/mac-arm64/chromedriver-mac-arm64.zip"
+              ],
+              "named_files": {
+                "CHROMEDRIVER": "chromedriver-mac-arm64/chromedriver"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "chromedriver-mac-arm64/chromedriver"
+              ]
+            }
+          },
+          "rules_browsers_chromedriver_win64": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "f4e9fb7bbf692fde7979b24e8d737b3cef4baafbc7a370e5d0abc4a8450fd830",
+              "urls": [
+                "https://storage.googleapis.com/chrome-for-testing-public/147.0.7687.0/win64/chromedriver-win64.zip"
+              ],
+              "named_files": {
+                "CHROMEDRIVER": "chromedriver-win64/chromedriver.exe"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "chromedriver-win64/chromedriver.exe"
+              ]
+            }
+          },
+          "rules_browsers_firefox_linux": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "f055b9c0d7346a10d22edc7f10e08679af2ea495367381ab2be9cab3ec6add97",
+              "urls": [
+                "https://archive.mozilla.org/pub/firefox/releases/147.0/linux-x86_64/en-US/firefox-147.0.tar.xz"
+              ],
+              "named_files": {
+                "FIREFOX": "firefox/firefox"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "firefox/firefox"
+              ]
+            }
+          },
+          "rules_browsers_firefox_mac": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "48485e2068bc726e2f30cf5855fc2da1fc75c1272bc243a5394f428ffae3ba35",
+              "urls": [
+                "https://archive.mozilla.org/pub/firefox/releases/147.0/mac/en-US/Firefox%20147.0.dmg"
+              ],
+              "named_files": {
+                "FIREFOX": "Firefox.app/Contents/MacOS/firefox"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "Firefox.app/Contents/MacOS/firefox"
+              ]
+            }
+          },
+          "rules_browsers_firefox_mac_arm": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "48485e2068bc726e2f30cf5855fc2da1fc75c1272bc243a5394f428ffae3ba35",
+              "urls": [
+                "https://archive.mozilla.org/pub/firefox/releases/147.0/mac/en-US/Firefox%20147.0.dmg"
+              ],
+              "named_files": {
+                "FIREFOX": "Firefox.app/Contents/MacOS/firefox"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "Firefox.app/Contents/MacOS/firefox"
+              ]
+            }
+          },
+          "rules_browsers_firefox_win64": {
+            "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
+            "attributes": {
+              "sha256": "36ff9e150875aa48a0af9eec3eb67f66dddd8efac5c743265371a72ae3e796c4",
+              "urls": [
+                "https://archive.mozilla.org/pub/firefox/releases/147.0/win64/en-US/Firefox%20Setup%20147.0.exe"
+              ],
+              "named_files": {
+                "FIREFOX": "core/firefox.exe"
+              },
+              "exclude_patterns": [],
+              "exports_files": [
+                "core/firefox.exe"
+              ]
+            }
+          }
+        },
+        "recordedRepoMappingEntries": []
       }
     },
     "@@rules_fuzzing+//fuzzing/private:extensions.bzl%non_module_dependencies": {
@@ -574,8 +931,8 @@
     },
     "@@rules_nodejs+//nodejs:extensions.bzl%node": {
       "general": {
-        "bzlTransitiveDigest": "hdICB1K7PX7oWtO8oksVTBDNt6xxiNERpcO4Yxoa0Gc=",
-        "usagesDigest": "hicDAHACabdpWZDxR19B6hw2fwGL5jOAhVJyJtInd28=",
+        "bzlTransitiveDigest": "4pUxCNc22K4I+6+4Nxu52Hur12tFRfa1JMsN5mdDv60=",
+        "usagesDigest": "y3BLC4wusaUGfljbBBA6aTRP/r5tAK5NR5WfYDuecng=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -585,46 +942,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "linux_amd64"
             }
@@ -634,46 +991,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "linux_arm64"
             }
@@ -683,46 +1040,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "linux_s390x"
             }
@@ -732,46 +1089,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "linux_ppc64le"
             }
@@ -781,46 +1138,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "darwin_amd64"
             }
@@ -830,46 +1187,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "darwin_arm64"
             }
@@ -879,46 +1236,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "windows_amd64"
             }
@@ -928,46 +1285,46 @@
             "attributes": {
               "node_download_auth": {},
               "node_repositories": {
-                "24.0.0-darwin_arm64": [
-                  "node-v24.0.0-darwin-arm64.tar.gz",
-                  "node-v24.0.0-darwin-arm64",
-                  "194e2f3dd3ec8c2adcaa713ed40f44c5ca38467880e160974ceac1659be60121"
+                "24.14.0-darwin_arm64": [
+                  "node-v24.14.0-darwin-arm64.tar.gz",
+                  "node-v24.14.0-darwin-arm64",
+                  "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3"
                 ],
-                "24.0.0-darwin_amd64": [
-                  "node-v24.0.0-darwin-x64.tar.gz",
-                  "node-v24.0.0-darwin-x64",
-                  "f716b3ce14a7e37a6cbf97c9de10d444d7da07ef833cd8da81dd944d111e6a4a"
+                "24.14.0-darwin_amd64": [
+                  "node-v24.14.0-darwin-x64.tar.gz",
+                  "node-v24.14.0-darwin-x64",
+                  "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e"
                 ],
-                "24.0.0-linux_arm64": [
-                  "node-v24.0.0-linux-arm64.tar.xz",
-                  "node-v24.0.0-linux-arm64",
-                  "d40ec7ffe0b82b02dce94208c84351424099bd70fa3a42b65c46d95322305040"
+                "24.14.0-linux_arm64": [
+                  "node-v24.14.0-linux-arm64.tar.xz",
+                  "node-v24.14.0-linux-arm64",
+                  "e7adfca03d9173276114a6f2219df1a7d25e1bfd6bbd771d3f839118a2053094"
                 ],
-                "24.0.0-linux_ppc64le": [
-                  "node-v24.0.0-linux-ppc64le.tar.xz",
-                  "node-v24.0.0-linux-ppc64le",
-                  "cfa0e8d51a2f9a446f1bfb81cdf4c7e95336ad622e2aa230e3fa1d093c63d77d"
+                "24.14.0-linux_ppc64le": [
+                  "node-v24.14.0-linux-ppc64le.tar.xz",
+                  "node-v24.14.0-linux-ppc64le",
+                  "33beedaf3ff82ee511cfc5ca0cc7076161a54a982321d061409299e27bc5f41e"
                 ],
-                "24.0.0-linux_s390x": [
-                  "node-v24.0.0-linux-s390x.tar.xz",
-                  "node-v24.0.0-linux-s390x",
-                  "e37a04c7ee05416ec1234fd3255e05b6b81287eb0424a57441c8b69f0a155021"
+                "24.14.0-linux_s390x": [
+                  "node-v24.14.0-linux-s390x.tar.xz",
+                  "node-v24.14.0-linux-s390x",
+                  "d133f1aac2d6dbaa4de9fe183184e57adbc9f45d62e37f55a864c8af92d4cb5a"
                 ],
-                "24.0.0-linux_amd64": [
-                  "node-v24.0.0-linux-x64.tar.xz",
-                  "node-v24.0.0-linux-x64",
-                  "59b8af617dccd7f9f68cc8451b2aee1e86d6bd5cb92cd51dd6216a31b707efd7"
+                "24.14.0-linux_amd64": [
+                  "node-v24.14.0-linux-x64.tar.xz",
+                  "node-v24.14.0-linux-x64",
+                  "41cd79bb7877c81605a9e68ec4c91547774f46a40c67a17e34d7179ef11729df"
                 ],
-                "24.0.0-windows_amd64": [
-                  "node-v24.0.0-win-x64.zip",
-                  "node-v24.0.0-win-x64",
-                  "3d0fff80c87bb9a8d7f49f2f27832aa34a1477d137af46f5b14df5498be81304"
+                "24.14.0-windows_amd64": [
+                  "node-v24.14.0-win-x64.zip",
+                  "node-v24.14.0-win-x64",
+                  "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66"
                 ]
               },
               "node_urls": [
                 "https://nodejs.org/dist/v{version}/{filename}"
               ],
-              "node_version": "24.0.0",
+              "node_version": "24.14.0",
               "include_headers": false,
               "platform": "windows_arm64"
             }
@@ -994,11 +1351,13 @@
         "recordedRepoMappingEntries": []
       }
     },
-    "@@rules_python+//python/private/pypi:pip.bzl%pip_internal": {
+    "@@rules_python+//python/extensions:pip.bzl%pip": {
       "general": {
-        "bzlTransitiveDigest": "PBWvQk1Ig1DQmk3kBkz1gxjJTZTLiYJhnBx9coVSz8w=",
-        "usagesDigest": "OLoIStnzNObNalKEMRq99FqenhPGLFZ5utVLV4sz7OI=",
+        "bzlTransitiveDigest": "WViZ5k1A9F8R5wfEe2ArLMFS1g9UmgfbS8Q/7q1/z7o=",
+        "usagesDigest": "AK1R124YPWwAs8z1CQYyjYuci8RO5Ofot+EP5ZCNQDc=",
         "recordedFileInputs": {
+          "@@protobuf+//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
+          "@@rules_fuzzing+//fuzzing/requirements.txt": "ab04664be026b632a0d2a2446c4f65982b7654f5b6851d2f9d399a19b7242a5b",
           "@@rules_python+//tools/publish/requirements_darwin.txt": "2994136eab7e57b083c3de76faf46f70fad130bc8e7360a7fed2b288b69e79dc",
           "@@rules_python+//tools/publish/requirements_linux.txt": "8175b4c8df50ae2f22d1706961884beeb54e7da27bd2447018314a175981997d",
           "@@rules_python+//tools/publish/requirements_windows.txt": "7673adc71dc1a81d3661b90924d7a7c0fc998cd508b3cb4174337cef3f2de556"
@@ -1009,6 +1368,216 @@
           "RULES_PYTHON_REPO_DEBUG_VERBOSITY": null
         },
         "generatedRepoSpecs": {
+          "pip_deps_310_numpy": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_10_host//:python",
+              "repo": "pip_deps_310",
+              "requirement": "numpy<=1.26.1"
+            }
+          },
+          "pip_deps_310_setuptools": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_10_host//:python",
+              "repo": "pip_deps_310",
+              "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "pip_deps_311_numpy": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_11_host//:python",
+              "repo": "pip_deps_311",
+              "requirement": "numpy<=1.26.1"
+            }
+          },
+          "pip_deps_311_setuptools": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_11_host//:python",
+              "repo": "pip_deps_311",
+              "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "pip_deps_312_numpy": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_12_host//:python",
+              "repo": "pip_deps_312",
+              "requirement": "numpy<=1.26.1"
+            }
+          },
+          "pip_deps_312_setuptools": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_12_host//:python",
+              "repo": "pip_deps_312",
+              "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "pip_deps_38_numpy": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_8_host//:python",
+              "repo": "pip_deps_38",
+              "requirement": "numpy<=1.26.1"
+            }
+          },
+          "pip_deps_38_setuptools": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_8_host//:python",
+              "repo": "pip_deps_38",
+              "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "pip_deps_39_numpy": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_9_host//:python",
+              "repo": "pip_deps_39",
+              "requirement": "numpy<=1.26.1"
+            }
+          },
+          "pip_deps_39_setuptools": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@pip_deps//{name}:{target}",
+              "python_interpreter_target": "@@rules_python++python+python_3_9_host//:python",
+              "repo": "pip_deps_39",
+              "requirement": "setuptools<=70.3.0"
+            }
+          },
+          "rules_fuzzing_py_deps_310_absl_py": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_10_host//:python",
+              "repo": "rules_fuzzing_py_deps_310",
+              "requirement": "absl-py==2.0.0 --hash=sha256:9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"
+            }
+          },
+          "rules_fuzzing_py_deps_310_six": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_10_host//:python",
+              "repo": "rules_fuzzing_py_deps_310",
+              "requirement": "six==1.16.0 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_fuzzing_py_deps_311_absl_py": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_11_host//:python",
+              "repo": "rules_fuzzing_py_deps_311",
+              "requirement": "absl-py==2.0.0 --hash=sha256:9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"
+            }
+          },
+          "rules_fuzzing_py_deps_311_six": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_11_host//:python",
+              "repo": "rules_fuzzing_py_deps_311",
+              "requirement": "six==1.16.0 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_fuzzing_py_deps_312_absl_py": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_12_host//:python",
+              "repo": "rules_fuzzing_py_deps_312",
+              "requirement": "absl-py==2.0.0 --hash=sha256:9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"
+            }
+          },
+          "rules_fuzzing_py_deps_312_six": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_12_host//:python",
+              "repo": "rules_fuzzing_py_deps_312",
+              "requirement": "six==1.16.0 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_fuzzing_py_deps_38_absl_py": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_8_host//:python",
+              "repo": "rules_fuzzing_py_deps_38",
+              "requirement": "absl-py==2.0.0 --hash=sha256:9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"
+            }
+          },
+          "rules_fuzzing_py_deps_38_six": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_8_host//:python",
+              "repo": "rules_fuzzing_py_deps_38",
+              "requirement": "six==1.16.0 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
+          "rules_fuzzing_py_deps_39_absl_py": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_9_host//:python",
+              "repo": "rules_fuzzing_py_deps_39",
+              "requirement": "absl-py==2.0.0 --hash=sha256:9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"
+            }
+          },
+          "rules_fuzzing_py_deps_39_six": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
+            "attributes": {
+              "dep_template": "@rules_fuzzing_py_deps//{name}:{target}",
+              "extra_pip_args": [
+                "--require-hashes"
+              ],
+              "python_interpreter_target": "@@rules_python++python+python_3_9_host//:python",
+              "repo": "rules_fuzzing_py_deps_39",
+              "requirement": "six==1.16.0 --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            }
+          },
           "rules_python_publish_deps_311_backports_tarfile_py3_none_any_77e284d7": {
             "repoRuleId": "@@rules_python+//python/private/pypi:whl_library.bzl%whl_library",
             "attributes": {
@@ -3287,42 +3856,74 @@
               ]
             }
           },
+          "pip_deps": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
+            "attributes": {
+              "repo_name": "pip_deps",
+              "extra_hub_aliases": {},
+              "whl_map": {
+                "numpy": "{\"pip_deps_310_numpy\":[{\"version\":\"3.10\"}],\"pip_deps_311_numpy\":[{\"version\":\"3.11\"}],\"pip_deps_312_numpy\":[{\"version\":\"3.12\"}],\"pip_deps_38_numpy\":[{\"version\":\"3.8\"}],\"pip_deps_39_numpy\":[{\"version\":\"3.9\"}]}",
+                "setuptools": "{\"pip_deps_310_setuptools\":[{\"version\":\"3.10\"}],\"pip_deps_311_setuptools\":[{\"version\":\"3.11\"}],\"pip_deps_312_setuptools\":[{\"version\":\"3.12\"}],\"pip_deps_38_setuptools\":[{\"version\":\"3.8\"}],\"pip_deps_39_setuptools\":[{\"version\":\"3.9\"}]}"
+              },
+              "packages": [
+                "numpy",
+                "setuptools"
+              ],
+              "groups": {}
+            }
+          },
+          "rules_fuzzing_py_deps": {
+            "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
+            "attributes": {
+              "repo_name": "rules_fuzzing_py_deps",
+              "extra_hub_aliases": {},
+              "whl_map": {
+                "absl_py": "{\"rules_fuzzing_py_deps_310_absl_py\":[{\"version\":\"3.10\"}],\"rules_fuzzing_py_deps_311_absl_py\":[{\"version\":\"3.11\"}],\"rules_fuzzing_py_deps_312_absl_py\":[{\"version\":\"3.12\"}],\"rules_fuzzing_py_deps_38_absl_py\":[{\"version\":\"3.8\"}],\"rules_fuzzing_py_deps_39_absl_py\":[{\"version\":\"3.9\"}]}",
+                "six": "{\"rules_fuzzing_py_deps_310_six\":[{\"version\":\"3.10\"}],\"rules_fuzzing_py_deps_311_six\":[{\"version\":\"3.11\"}],\"rules_fuzzing_py_deps_312_six\":[{\"version\":\"3.12\"}],\"rules_fuzzing_py_deps_38_six\":[{\"version\":\"3.8\"}],\"rules_fuzzing_py_deps_39_six\":[{\"version\":\"3.9\"}]}"
+              },
+              "packages": [
+                "absl_py",
+                "six"
+              ],
+              "groups": {}
+            }
+          },
           "rules_python_publish_deps": {
             "repoRuleId": "@@rules_python+//python/private/pypi:hub_repository.bzl%hub_repository",
             "attributes": {
               "repo_name": "rules_python_publish_deps",
               "extra_hub_aliases": {},
               "whl_map": {
-                "backports_tarfile": "[{\"filename\":\"backports.tarfile-1.2.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_backports_tarfile_py3_none_any_77e284d7\",\"version\":\"3.11\"},{\"filename\":\"backports_tarfile-1.2.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_backports_tarfile_sdist_d75e02c2\",\"version\":\"3.11\"}]",
-                "certifi": "[{\"filename\":\"certifi-2024.8.30-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_certifi_py3_none_any_922820b5\",\"version\":\"3.11\"},{\"filename\":\"certifi-2024.8.30.tar.gz\",\"repo\":\"rules_python_publish_deps_311_certifi_sdist_bec941d2\",\"version\":\"3.11\"}]",
-                "cffi": "[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_aarch64_a1ed2dd2\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_ppc64le_46bf4316\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_s390x_a24ed04c\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_x86_64_610faea7\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_musllinux_1_1_aarch64_a9b15d49\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_cffi_cp311_cp311_musllinux_1_1_x86_64_fc48c783\",\"version\":\"3.11\"},{\"filename\":\"cffi-1.17.1.tar.gz\",\"repo\":\"rules_python_publish_deps_311_cffi_sdist_1c39c601\",\"version\":\"3.11\"}]",
-                "charset_normalizer": "[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_10_9_universal2.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_10_9_universal2_0d99dd8f\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_10_9_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_10_9_x86_64_c57516e5\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_11_0_arm64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_11_0_arm64_6dba5d19\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_aarch64_bf4475b8\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_ppc64le_ce031db0\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_s390x_8ff4e7cd\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_x86_64_3710a975\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_aarch64_47334db7\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_ppc64le.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_ppc64le_f1a2f519\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_s390x.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_s390x_63bc5c4a\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_x86_64_bcb4f8ea\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-win_amd64.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_win_amd64_cee4373f\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_py3_none_any_fe9f97fe\",\"version\":\"3.11\"},{\"filename\":\"charset_normalizer-3.4.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_charset_normalizer_sdist_223217c3\",\"version\":\"3.11\"}]",
-                "cryptography": "[{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_17_aarch64_846da004\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_17_x86_64_0f996e72\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_28_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_28_aarch64_f7b178f1\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_28_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_28_x86_64_c2e6fc39\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3-cp39-abi3-musllinux_1_2_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_musllinux_1_2_aarch64_e1be4655\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3-cp39-abi3-musllinux_1_2_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_cryptography_cp39_abi3_musllinux_1_2_x86_64_df6b6c6d\",\"version\":\"3.11\"},{\"filename\":\"cryptography-43.0.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_cryptography_sdist_315b9001\",\"version\":\"3.11\"}]",
-                "docutils": "[{\"filename\":\"docutils-0.21.2-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_docutils_py3_none_any_dafca5b9\",\"version\":\"3.11\"},{\"filename\":\"docutils-0.21.2.tar.gz\",\"repo\":\"rules_python_publish_deps_311_docutils_sdist_3a6b1873\",\"version\":\"3.11\"}]",
-                "idna": "[{\"filename\":\"idna-3.10-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_idna_py3_none_any_946d195a\",\"version\":\"3.11\"},{\"filename\":\"idna-3.10.tar.gz\",\"repo\":\"rules_python_publish_deps_311_idna_sdist_12f65c9b\",\"version\":\"3.11\"}]",
-                "importlib_metadata": "[{\"filename\":\"importlib_metadata-8.5.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_importlib_metadata_py3_none_any_45e54197\",\"version\":\"3.11\"},{\"filename\":\"importlib_metadata-8.5.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_importlib_metadata_sdist_71522656\",\"version\":\"3.11\"}]",
-                "jaraco_classes": "[{\"filename\":\"jaraco.classes-3.4.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_jaraco_classes_py3_none_any_f662826b\",\"version\":\"3.11\"},{\"filename\":\"jaraco.classes-3.4.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_jaraco_classes_sdist_47a024b5\",\"version\":\"3.11\"}]",
-                "jaraco_context": "[{\"filename\":\"jaraco.context-6.0.1-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_jaraco_context_py3_none_any_f797fc48\",\"version\":\"3.11\"},{\"filename\":\"jaraco_context-6.0.1.tar.gz\",\"repo\":\"rules_python_publish_deps_311_jaraco_context_sdist_9bae4ea5\",\"version\":\"3.11\"}]",
-                "jaraco_functools": "[{\"filename\":\"jaraco.functools-4.1.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_jaraco_functools_py3_none_any_ad159f13\",\"version\":\"3.11\"},{\"filename\":\"jaraco_functools-4.1.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_jaraco_functools_sdist_70f7e0e2\",\"version\":\"3.11\"}]",
-                "jeepney": "[{\"filename\":\"jeepney-0.8.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_jeepney_py3_none_any_c0a454ad\",\"version\":\"3.11\"},{\"filename\":\"jeepney-0.8.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_jeepney_sdist_5efe48d2\",\"version\":\"3.11\"}]",
-                "keyring": "[{\"filename\":\"keyring-25.4.1-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_keyring_py3_none_any_5426f817\",\"version\":\"3.11\"},{\"filename\":\"keyring-25.4.1.tar.gz\",\"repo\":\"rules_python_publish_deps_311_keyring_sdist_b07ebc55\",\"version\":\"3.11\"}]",
-                "markdown_it_py": "[{\"filename\":\"markdown-it-py-3.0.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_markdown_it_py_sdist_e3f60a94\",\"version\":\"3.11\"},{\"filename\":\"markdown_it_py-3.0.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_markdown_it_py_py3_none_any_35521684\",\"version\":\"3.11\"}]",
-                "mdurl": "[{\"filename\":\"mdurl-0.1.2-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_mdurl_py3_none_any_84008a41\",\"version\":\"3.11\"},{\"filename\":\"mdurl-0.1.2.tar.gz\",\"repo\":\"rules_python_publish_deps_311_mdurl_sdist_bb413d29\",\"version\":\"3.11\"}]",
-                "more_itertools": "[{\"filename\":\"more-itertools-10.5.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_more_itertools_sdist_5482bfef\",\"version\":\"3.11\"},{\"filename\":\"more_itertools-10.5.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_more_itertools_py3_none_any_037b0d32\",\"version\":\"3.11\"}]",
-                "nh3": "[{\"filename\":\"nh3-0.2.18-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_macosx_10_12_x86_64_14c5a72e\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-macosx_10_12_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_macosx_10_12_x86_64_7b7c2a3c\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_aarch64_42c64511\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_armv7l_0411beb0\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_ppc64.manylinux2014_ppc64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_ppc64_5f36b271\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_ppc64le_34c03fa7\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_s390x_19aaba96\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_x86_64_de3ceed6\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_aarch64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_aarch64_f0eca9ca\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_armv7l.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_armv7l_3a157ab1\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_x86_64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_x86_64_36c95d4b\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18-cp37-abi3-win_amd64.whl\",\"repo\":\"rules_python_publish_deps_311_nh3_cp37_abi3_win_amd64_8ce0f819\",\"version\":\"3.11\"},{\"filename\":\"nh3-0.2.18.tar.gz\",\"repo\":\"rules_python_publish_deps_311_nh3_sdist_94a16692\",\"version\":\"3.11\"}]",
-                "pkginfo": "[{\"filename\":\"pkginfo-1.10.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_pkginfo_py3_none_any_889a6da2\",\"version\":\"3.11\"},{\"filename\":\"pkginfo-1.10.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_pkginfo_sdist_5df73835\",\"version\":\"3.11\"}]",
-                "pycparser": "[{\"filename\":\"pycparser-2.22-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_pycparser_py3_none_any_c3702b6d\",\"version\":\"3.11\"},{\"filename\":\"pycparser-2.22.tar.gz\",\"repo\":\"rules_python_publish_deps_311_pycparser_sdist_491c8be9\",\"version\":\"3.11\"}]",
-                "pygments": "[{\"filename\":\"pygments-2.18.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_pygments_py3_none_any_b8e6aca0\",\"version\":\"3.11\"},{\"filename\":\"pygments-2.18.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_pygments_sdist_786ff802\",\"version\":\"3.11\"}]",
-                "pywin32_ctypes": "[{\"filename\":\"pywin32-ctypes-0.2.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_pywin32_ctypes_sdist_d162dc04\",\"version\":\"3.11\"},{\"filename\":\"pywin32_ctypes-0.2.3-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_pywin32_ctypes_py3_none_any_8a151337\",\"version\":\"3.11\"}]",
-                "readme_renderer": "[{\"filename\":\"readme_renderer-44.0-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_readme_renderer_py3_none_any_2fbca89b\",\"version\":\"3.11\"},{\"filename\":\"readme_renderer-44.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_readme_renderer_sdist_8712034e\",\"version\":\"3.11\"}]",
-                "requests": "[{\"filename\":\"requests-2.32.3-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_requests_py3_none_any_70761cfe\",\"version\":\"3.11\"},{\"filename\":\"requests-2.32.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_requests_sdist_55365417\",\"version\":\"3.11\"}]",
-                "requests_toolbelt": "[{\"filename\":\"requests-toolbelt-1.0.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_requests_toolbelt_sdist_7681a0a3\",\"version\":\"3.11\"},{\"filename\":\"requests_toolbelt-1.0.0-py2.py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_requests_toolbelt_py2_none_any_cccfdd66\",\"version\":\"3.11\"}]",
-                "rfc3986": "[{\"filename\":\"rfc3986-2.0.0-py2.py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_rfc3986_py2_none_any_50b1502b\",\"version\":\"3.11\"},{\"filename\":\"rfc3986-2.0.0.tar.gz\",\"repo\":\"rules_python_publish_deps_311_rfc3986_sdist_97aacf9d\",\"version\":\"3.11\"}]",
-                "rich": "[{\"filename\":\"rich-13.9.3-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_rich_py3_none_any_9836f509\",\"version\":\"3.11\"},{\"filename\":\"rich-13.9.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_rich_sdist_bc1e01b8\",\"version\":\"3.11\"}]",
-                "secretstorage": "[{\"filename\":\"SecretStorage-3.3.3-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_secretstorage_py3_none_any_f356e662\",\"version\":\"3.11\"},{\"filename\":\"SecretStorage-3.3.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_secretstorage_sdist_2403533e\",\"version\":\"3.11\"}]",
-                "twine": "[{\"filename\":\"twine-5.1.1-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_twine_py3_none_any_215dbe7b\",\"version\":\"3.11\"},{\"filename\":\"twine-5.1.1.tar.gz\",\"repo\":\"rules_python_publish_deps_311_twine_sdist_9aa08251\",\"version\":\"3.11\"}]",
-                "urllib3": "[{\"filename\":\"urllib3-2.2.3-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_urllib3_py3_none_any_ca899ca0\",\"version\":\"3.11\"},{\"filename\":\"urllib3-2.2.3.tar.gz\",\"repo\":\"rules_python_publish_deps_311_urllib3_sdist_e7d814a8\",\"version\":\"3.11\"}]",
-                "zipp": "[{\"filename\":\"zipp-3.20.2-py3-none-any.whl\",\"repo\":\"rules_python_publish_deps_311_zipp_py3_none_any_a817ac80\",\"version\":\"3.11\"},{\"filename\":\"zipp-3.20.2.tar.gz\",\"repo\":\"rules_python_publish_deps_311_zipp_sdist_bc9eb26f\",\"version\":\"3.11\"}]"
+                "backports_tarfile": "{\"rules_python_publish_deps_311_backports_tarfile_py3_none_any_77e284d7\":[{\"filename\":\"backports.tarfile-1.2.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_backports_tarfile_sdist_d75e02c2\":[{\"filename\":\"backports_tarfile-1.2.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "certifi": "{\"rules_python_publish_deps_311_certifi_py3_none_any_922820b5\":[{\"filename\":\"certifi-2024.8.30-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_certifi_sdist_bec941d2\":[{\"filename\":\"certifi-2024.8.30.tar.gz\",\"version\":\"3.11\"}]}",
+                "cffi": "{\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_aarch64_a1ed2dd2\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_ppc64le_46bf4316\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_s390x_a24ed04c\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_cp311_cp311_manylinux_2_17_x86_64_610faea7\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_cp311_cp311_musllinux_1_1_aarch64_a9b15d49\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_cp311_cp311_musllinux_1_1_x86_64_fc48c783\":[{\"filename\":\"cffi-1.17.1-cp311-cp311-musllinux_1_1_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cffi_sdist_1c39c601\":[{\"filename\":\"cffi-1.17.1.tar.gz\",\"version\":\"3.11\"}]}",
+                "charset_normalizer": "{\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_10_9_universal2_0d99dd8f\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_10_9_universal2.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_10_9_x86_64_c57516e5\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_10_9_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_macosx_11_0_arm64_6dba5d19\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-macosx_11_0_arm64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_aarch64_bf4475b8\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_ppc64le_ce031db0\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_s390x_8ff4e7cd\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_manylinux_2_17_x86_64_3710a975\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_aarch64_47334db7\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_ppc64le_f1a2f519\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_ppc64le.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_s390x_63bc5c4a\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_s390x.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_musllinux_1_2_x86_64_bcb4f8ea\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_cp311_cp311_win_amd64_cee4373f\":[{\"filename\":\"charset_normalizer-3.4.0-cp311-cp311-win_amd64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_py3_none_any_fe9f97fe\":[{\"filename\":\"charset_normalizer-3.4.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_charset_normalizer_sdist_223217c3\":[{\"filename\":\"charset_normalizer-3.4.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "cryptography": "{\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_17_aarch64_846da004\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_17_x86_64_0f996e72\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_28_aarch64_f7b178f1\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_28_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_cp39_abi3_manylinux_2_28_x86_64_c2e6fc39\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-manylinux_2_28_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_cp39_abi3_musllinux_1_2_aarch64_e1be4655\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_cp39_abi3_musllinux_1_2_x86_64_df6b6c6d\":[{\"filename\":\"cryptography-43.0.3-cp39-abi3-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_cryptography_sdist_315b9001\":[{\"filename\":\"cryptography-43.0.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "docutils": "{\"rules_python_publish_deps_311_docutils_py3_none_any_dafca5b9\":[{\"filename\":\"docutils-0.21.2-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_docutils_sdist_3a6b1873\":[{\"filename\":\"docutils-0.21.2.tar.gz\",\"version\":\"3.11\"}]}",
+                "idna": "{\"rules_python_publish_deps_311_idna_py3_none_any_946d195a\":[{\"filename\":\"idna-3.10-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_idna_sdist_12f65c9b\":[{\"filename\":\"idna-3.10.tar.gz\",\"version\":\"3.11\"}]}",
+                "importlib_metadata": "{\"rules_python_publish_deps_311_importlib_metadata_py3_none_any_45e54197\":[{\"filename\":\"importlib_metadata-8.5.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_importlib_metadata_sdist_71522656\":[{\"filename\":\"importlib_metadata-8.5.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "jaraco_classes": "{\"rules_python_publish_deps_311_jaraco_classes_py3_none_any_f662826b\":[{\"filename\":\"jaraco.classes-3.4.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_jaraco_classes_sdist_47a024b5\":[{\"filename\":\"jaraco.classes-3.4.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "jaraco_context": "{\"rules_python_publish_deps_311_jaraco_context_py3_none_any_f797fc48\":[{\"filename\":\"jaraco.context-6.0.1-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_jaraco_context_sdist_9bae4ea5\":[{\"filename\":\"jaraco_context-6.0.1.tar.gz\",\"version\":\"3.11\"}]}",
+                "jaraco_functools": "{\"rules_python_publish_deps_311_jaraco_functools_py3_none_any_ad159f13\":[{\"filename\":\"jaraco.functools-4.1.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_jaraco_functools_sdist_70f7e0e2\":[{\"filename\":\"jaraco_functools-4.1.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "jeepney": "{\"rules_python_publish_deps_311_jeepney_py3_none_any_c0a454ad\":[{\"filename\":\"jeepney-0.8.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_jeepney_sdist_5efe48d2\":[{\"filename\":\"jeepney-0.8.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "keyring": "{\"rules_python_publish_deps_311_keyring_py3_none_any_5426f817\":[{\"filename\":\"keyring-25.4.1-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_keyring_sdist_b07ebc55\":[{\"filename\":\"keyring-25.4.1.tar.gz\",\"version\":\"3.11\"}]}",
+                "markdown_it_py": "{\"rules_python_publish_deps_311_markdown_it_py_py3_none_any_35521684\":[{\"filename\":\"markdown_it_py-3.0.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_markdown_it_py_sdist_e3f60a94\":[{\"filename\":\"markdown-it-py-3.0.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "mdurl": "{\"rules_python_publish_deps_311_mdurl_py3_none_any_84008a41\":[{\"filename\":\"mdurl-0.1.2-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_mdurl_sdist_bb413d29\":[{\"filename\":\"mdurl-0.1.2.tar.gz\",\"version\":\"3.11\"}]}",
+                "more_itertools": "{\"rules_python_publish_deps_311_more_itertools_py3_none_any_037b0d32\":[{\"filename\":\"more_itertools-10.5.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_more_itertools_sdist_5482bfef\":[{\"filename\":\"more-itertools-10.5.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "nh3": "{\"rules_python_publish_deps_311_nh3_cp37_abi3_macosx_10_12_x86_64_14c5a72e\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_macosx_10_12_x86_64_7b7c2a3c\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-macosx_10_12_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_aarch64_42c64511\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_armv7l_0411beb0\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_ppc64_5f36b271\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_ppc64.manylinux2014_ppc64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_ppc64le_34c03fa7\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_s390x_19aaba96\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_manylinux_2_17_x86_64_de3ceed6\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_aarch64_f0eca9ca\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_armv7l_3a157ab1\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_armv7l.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_musllinux_1_2_x86_64_36c95d4b\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_cp37_abi3_win_amd64_8ce0f819\":[{\"filename\":\"nh3-0.2.18-cp37-abi3-win_amd64.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_nh3_sdist_94a16692\":[{\"filename\":\"nh3-0.2.18.tar.gz\",\"version\":\"3.11\"}]}",
+                "pkginfo": "{\"rules_python_publish_deps_311_pkginfo_py3_none_any_889a6da2\":[{\"filename\":\"pkginfo-1.10.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_pkginfo_sdist_5df73835\":[{\"filename\":\"pkginfo-1.10.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "pycparser": "{\"rules_python_publish_deps_311_pycparser_py3_none_any_c3702b6d\":[{\"filename\":\"pycparser-2.22-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_pycparser_sdist_491c8be9\":[{\"filename\":\"pycparser-2.22.tar.gz\",\"version\":\"3.11\"}]}",
+                "pygments": "{\"rules_python_publish_deps_311_pygments_py3_none_any_b8e6aca0\":[{\"filename\":\"pygments-2.18.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_pygments_sdist_786ff802\":[{\"filename\":\"pygments-2.18.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "pywin32_ctypes": "{\"rules_python_publish_deps_311_pywin32_ctypes_py3_none_any_8a151337\":[{\"filename\":\"pywin32_ctypes-0.2.3-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_pywin32_ctypes_sdist_d162dc04\":[{\"filename\":\"pywin32-ctypes-0.2.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "readme_renderer": "{\"rules_python_publish_deps_311_readme_renderer_py3_none_any_2fbca89b\":[{\"filename\":\"readme_renderer-44.0-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_readme_renderer_sdist_8712034e\":[{\"filename\":\"readme_renderer-44.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "requests": "{\"rules_python_publish_deps_311_requests_py3_none_any_70761cfe\":[{\"filename\":\"requests-2.32.3-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_requests_sdist_55365417\":[{\"filename\":\"requests-2.32.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "requests_toolbelt": "{\"rules_python_publish_deps_311_requests_toolbelt_py2_none_any_cccfdd66\":[{\"filename\":\"requests_toolbelt-1.0.0-py2.py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_requests_toolbelt_sdist_7681a0a3\":[{\"filename\":\"requests-toolbelt-1.0.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "rfc3986": "{\"rules_python_publish_deps_311_rfc3986_py2_none_any_50b1502b\":[{\"filename\":\"rfc3986-2.0.0-py2.py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_rfc3986_sdist_97aacf9d\":[{\"filename\":\"rfc3986-2.0.0.tar.gz\",\"version\":\"3.11\"}]}",
+                "rich": "{\"rules_python_publish_deps_311_rich_py3_none_any_9836f509\":[{\"filename\":\"rich-13.9.3-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_rich_sdist_bc1e01b8\":[{\"filename\":\"rich-13.9.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "secretstorage": "{\"rules_python_publish_deps_311_secretstorage_py3_none_any_f356e662\":[{\"filename\":\"SecretStorage-3.3.3-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_secretstorage_sdist_2403533e\":[{\"filename\":\"SecretStorage-3.3.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "twine": "{\"rules_python_publish_deps_311_twine_py3_none_any_215dbe7b\":[{\"filename\":\"twine-5.1.1-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_twine_sdist_9aa08251\":[{\"filename\":\"twine-5.1.1.tar.gz\",\"version\":\"3.11\"}]}",
+                "urllib3": "{\"rules_python_publish_deps_311_urllib3_py3_none_any_ca899ca0\":[{\"filename\":\"urllib3-2.2.3-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_urllib3_sdist_e7d814a8\":[{\"filename\":\"urllib3-2.2.3.tar.gz\",\"version\":\"3.11\"}]}",
+                "zipp": "{\"rules_python_publish_deps_311_zipp_py3_none_any_a817ac80\":[{\"filename\":\"zipp-3.20.2-py3-none-any.whl\",\"version\":\"3.11\"}],\"rules_python_publish_deps_311_zipp_sdist_bc9eb26f\":[{\"filename\":\"zipp-3.20.2.tar.gz\",\"version\":\"3.11\"}]}"
               },
               "packages": [
                 "backports_tarfile",
@@ -3488,10 +4089,66 @@
         ]
       }
     },
+    "@@rules_sass+//src/toolchain:extensions.bzl%sass": {
+      "general": {
+        "bzlTransitiveDigest": "mOfuR8PsNuUWEq7JZ4MpIRbwyAGAqrCvkXXGaRNnlPQ=",
+        "usagesDigest": "R0KshhzIouLWuexMUCrl4HY+FUDwlVVgF9Z7UnwyUWA=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "linux_amd64_sass": {
+            "repoRuleId": "@@rules_sass+//src/toolchain:configure_sass.bzl%configure_sass",
+            "attributes": {
+              "file": "@rules_sass//src/compiler/built:sass_linux_x64",
+              "sha256": "",
+              "constraints": [
+                "@@platforms//os:linux",
+                "@@platforms//cpu:x86_64"
+              ]
+            }
+          },
+          "linux_arm64_sass": {
+            "repoRuleId": "@@rules_sass+//src/toolchain:configure_sass.bzl%configure_sass",
+            "attributes": {
+              "file": "@rules_sass//src/compiler/built:sass_linux_arm",
+              "sha256": "",
+              "constraints": [
+                "@@platforms//os:linux",
+                "@@platforms//cpu:arm64"
+              ]
+            }
+          },
+          "darwin_amd64_sass": {
+            "repoRuleId": "@@rules_sass+//src/toolchain:configure_sass.bzl%configure_sass",
+            "attributes": {
+              "file": "@rules_sass//src/compiler/built:sass_mac_x64",
+              "sha256": "",
+              "constraints": [
+                "@@platforms//os:macos",
+                "@@platforms//cpu:x86_64"
+              ]
+            }
+          },
+          "darwin_arm64_sass": {
+            "repoRuleId": "@@rules_sass+//src/toolchain:configure_sass.bzl%configure_sass",
+            "attributes": {
+              "file": "@rules_sass//src/compiler/built:sass_mac_arm",
+              "sha256": "",
+              "constraints": [
+                "@@platforms//os:macos",
+                "@@platforms//cpu:arm64"
+              ]
+            }
+          }
+        },
+        "recordedRepoMappingEntries": []
+      }
+    },
     "@@yq.bzl+//yq:extensions.bzl%yq": {
       "general": {
-        "bzlTransitiveDigest": "61Uz+o5PnlY0jJfPZEUNqsKxnM/UCLeWsn5VVCc8u5Y=",
-        "usagesDigest": "7ZrzfXbhoJk/Ut1sx2aNqyYyJQfwZNV94Q8TYuBaCK8=",
+        "bzlTransitiveDigest": "UfFMy8CWK4/dVo/tfaSAIYUiDGNAPes5eRllx9O9Q9Q=",
+        "usagesDigest": "4aKyVrpEFPLlZ8sxZdSEvuhqwXzSAKCyt1eYx1yn3u4=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -3500,56 +4157,63 @@
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "darwin_amd64",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_darwin_arm64": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "darwin_arm64",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_linux_amd64": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "linux_amd64",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_linux_arm64": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "linux_arm64",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_linux_s390x": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "linux_s390x",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_linux_riscv64": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "linux_riscv64",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_linux_ppc64le": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "linux_ppc64le",
-              "version": "4.45.1"
+              "version": "4.45.2"
             }
           },
           "yq_windows_amd64": {
             "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
             "attributes": {
               "platform": "windows_amd64",
-              "version": "4.45.1"
+              "version": "4.45.2"
+            }
+          },
+          "yq_windows_arm64": {
+            "repoRuleId": "@@yq.bzl+//yq/toolchain:platforms.bzl%yq_platform_repo",
+            "attributes": {
+              "platform": "windows_arm64",
+              "version": "4.45.2"
             }
           },
           "yq_toolchains": {

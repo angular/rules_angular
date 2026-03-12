@@ -53,38 +53,42 @@ async function parseStatusFile(filePath: string) {
 }
 
 async function main(args: string[]) {
-  const [substitutionsArg,  originsRaw, volatileFileRaw, stableFileRaw, binPathRaw, basePathRaw, destinationRaw] = (
-    await fs.readFile(args[0], {encoding: 'utf-8'})
-  )
+  const [
+    substitutionsArg,
+    originsRaw,
+    volatileFileRaw,
+    stableFileRaw,
+    binPathRaw,
+    basePathRaw,
+    destinationRaw,
+  ] = (await fs.readFile(args[0], {encoding: 'utf-8'}))
     .split('\n')
-    .map(line => line.replace(/^'(.*)'$/, '$1'));
+    .map((line) => line.replace(/^'(.*)'$/, '$1'));
   /** The basepath for all source files to be split from. */
   const basePath = basePathRaw as string;
   /** The binary root location for the action. */
   const binPath = binPathRaw as string;
   /** The base path of the package. */
-  const packagePath = basePath.slice(binPath.length+1);
+  const packagePath = basePath.slice(binPath.length + 1);
   /** List of files to propcess for substitution */
-  const origins: File[] = (JSON.parse(originsRaw) as string[]).map(
-    origin => {
-      if (origin.startsWith(basePath)) {
-        return {
-          full: origin,
-          relative: path.relative(basePath, origin)
-        }
-      }
-      if (origin.startsWith(packagePath)) {
-        return {
-          full: origin,
-          relative: origin.slice(packagePath.length + 1)
-        }
-      }
+  const origins: File[] = (JSON.parse(originsRaw) as string[]).map((origin) => {
+    if (origin.startsWith(basePath)) {
       return {
         full: origin,
-        relative: origin,
+        relative: path.relative(basePath, origin),
       };
     }
-  )
+    if (origin.startsWith(packagePath)) {
+      return {
+        full: origin,
+        relative: origin.slice(packagePath.length + 1),
+      };
+    }
+    return {
+      full: origin,
+      relative: origin,
+    };
+  });
   /** The destination directory for the copied files with substitutions applied. */
   const destinationDir = destinationRaw as string;
   /** The path to the volitate status file from bazel. */
@@ -100,19 +104,18 @@ async function main(args: string[]) {
   substitutions.push(...(await parseStatusFile(stableFile)));
 
   /** Discovered file paths to apply substitutions to, split into the origin path and the file path based on that origin. */
-  let files: File[] = []
-  
+  let files: File[] = [];
+
   for (const origin of origins) {
     if ((await fs.lstat(origin.full)).isDirectory()) {
       files.push(
-        ...globSync(origin.full)
-          .map((file: string) => {
-            return {
-              full: file,
-              relative: file.slice(basePath.length),
-            };
-          })
-      )
+        ...globSync(origin.full).map((file: string) => {
+          return {
+            full: file,
+            relative: file.slice(basePath.length),
+          };
+        }),
+      );
     } else {
       files.push(origin);
     }
@@ -121,13 +124,16 @@ async function main(args: string[]) {
   // Wait for substitutions to asynchronously occur on all files.
   await Promise.all(
     files.map(({full, relative}) => {
-      return applySubstitutions(path.join(full), path.join(destinationDir, relative), substitutions)
-      }
-    ),
+      return applySubstitutions(
+        path.join(full),
+        path.join(destinationDir, relative),
+        substitutions,
+      );
+    }),
   );
 }
 
-main(process.argv.slice(2)).catch(e => {
+main(process.argv.slice(2)).catch((e) => {
   console.error(e);
   process.exit(1);
 });

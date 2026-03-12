@@ -1,5 +1,5 @@
-load("@aspect_bazel_lib//lib:utils.bzl", "to_label")
 load("@aspect_rules_ts//ts:defs.bzl", "ts_project")
+load("@bazel_lib//lib:utils.bzl", "to_label")
 load("//src/ng_project/config:index.bzl", "ng_project_config")
 
 def ng_project(

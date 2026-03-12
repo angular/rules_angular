@@ -30,7 +30,7 @@ export function createCacheCompilerHost(
     (base as AngularResourceHost).getModifiedResourceFiles = () => modifiedResourceFilePaths;
   }
 
-  (base as AngularResourceHost).readResource = fileName => {
+  (base as AngularResourceHost).readResource = (fileName) => {
     // Used cached source file if it's still valid.
     const cachedFile = cache.getCache(fileName);
     if (cachedFile !== undefined && typeof cachedFile === 'string') {

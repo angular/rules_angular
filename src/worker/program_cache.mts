@@ -20,7 +20,7 @@ export function createProgramCache(): ProgramCache {
 
 export function evictRecentlyUsedEntriesToFreeUpSpace(cache: ProgramCache) {
   const oldestEntries = Array.from(cache.keys())
-    .map(k => [k, cache.getRemainingTTL(k)] as const)
+    .map((k) => [k, cache.getRemainingTTL(k)] as const)
     .sort((a, b) => a[1] - b[1]);
 
   if (oldestEntries.length === 0) {

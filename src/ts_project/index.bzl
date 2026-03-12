@@ -1,5 +1,5 @@
-load("@aspect_bazel_lib//lib:utils.bzl", "to_label")
 load("@aspect_rules_ts//ts:defs.bzl", _ts_project = "ts_project")
+load("@bazel_lib//lib:utils.bzl", "to_label")
 
 def ts_project(
         name,
