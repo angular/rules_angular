@@ -85,7 +85,7 @@ def _write_rollup_config(
             "TMPL_metadata": json.encode(metadata_arg),
             "TMPL_root_dir": root_dir,
             "TMPL_workspace_name": ctx.workspace_name,
-            "TMPL_external": ", ".join(["'%s'" % e for e in externals]),
+            "TMPL_external": json.encode(externals),
             "TMPL_side_effect_entrypoints": json.encode(side_effect_entry_points),
             "TMPL_dts_mode": "true" if dts_mode else "false",
         },
