@@ -389,7 +389,7 @@
                 "aspect_rules_jasmine": "2.0.4",
                 "aspect_rules_esbuild": "0.27.1"
               },
-              "last_notice": 2
+              "last_notice": 3
             }
           }
         },
@@ -427,16 +427,16 @@
     },
     "@@rules_browsers+//browsers:extensions.bzl%browsers": {
       "general": {
-        "bzlTransitiveDigest": "ZSoNTakcYj+yfCz1rgymNBhnBpBs9cKy49hKB4IJog4=",
+        "bzlTransitiveDigest": "/FonktAou7w4aKjGZUZDFFOlASeGnKNw0QALxUIdtuE=",
         "usagesDigest": "FmXYJVoVJlnfUU8x8gObSvu4qWcco/9Faw61aC/wBF0=",
         "recordedInputs": [],
         "generatedRepoSpecs": {
           "rules_browsers_chrome_linux": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "3394562b73afccac3d8a4336f9eeec7a973516aa002cf357c907733d6af73ef0",
+              "sha256": "9541eafbc02f85e3ec0c24b05f8bbffe88094389949860681bf6055aef668d7b",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/linux64/chrome-headless-shell-linux64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/linux64/chrome-headless-shell-linux64.zip"
               ],
               "named_files": {
                 "CHROME-HEADLESS-SHELL": "chrome-headless-shell-linux64/chrome-headless-shell"
@@ -452,9 +452,9 @@
           "rules_browsers_chrome_mac": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "bbfb03687ed717c695a87e9e440762ff3160193d4693e5da3c1e44f8e48b4d1d",
+              "sha256": "358f032d48a0b825b0601b89b970da5a7c245344ed7a557a3ef8613c342521b0",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-x64/chrome-headless-shell-mac-x64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-x64/chrome-headless-shell-mac-x64.zip"
               ],
               "named_files": {
                 "CHROME-HEADLESS-SHELL": "chrome-headless-shell-mac-x64/chrome-headless-shell"
@@ -470,9 +470,9 @@
           "rules_browsers_chrome_mac_arm": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "be6d2c70741ab23968087b0fdc2e47d979ee3c5df3cc8c82fae4907fb89a7f57",
+              "sha256": "c3de600edda5e11aa40918f123781040cd6e9c2509a2acfc466b773bf7c9b326",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-arm64/chrome-headless-shell-mac-arm64.zip"
               ],
               "named_files": {
                 "CHROME-HEADLESS-SHELL": "chrome-headless-shell-mac-arm64/chrome-headless-shell"
@@ -488,9 +488,9 @@
           "rules_browsers_chrome_win64": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "781a86955aadc39e9ba66a45046db2033b6ad70ba2202fd2159c2363ac354fb3",
+              "sha256": "b2e81e06ac46d3355bc6428b3abe97308d34e810d4404427bbd14665111e67a1",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/win64/chrome-headless-shell-win64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/win64/chrome-headless-shell-win64.zip"
               ],
               "named_files": {
                 "CHROME-HEADLESS-SHELL": "chrome-headless-shell-win64/chrome-headless-shell.exe"
@@ -506,9 +506,9 @@
           "rules_browsers_chromedriver_linux": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "fc55dee26f97e3f0206d75212b159d5eec4cbadb00556bd9379b235b725fb6f5",
+              "sha256": "cf16fed1899de0f0b8999389779cefbb6696c5fd44ad9718ce2195a3ff5ca029",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/linux64/chromedriver-linux64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/linux64/chromedriver-linux64.zip"
               ],
               "named_files": {
                 "CHROMEDRIVER": "chromedriver-linux64/chromedriver"
@@ -522,9 +522,9 @@
           "rules_browsers_chromedriver_mac": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "6c7f4a21728382b57f49cdbf7c23a526e2d64d785bd3b872e6a936b1d19f7cd7",
+              "sha256": "ba472bdd32ee62a98f04fcca364015a0df241fdf85ee7d834a048b5fdfd90fd3",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-x64/chromedriver-mac-x64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-x64/chromedriver-mac-x64.zip"
               ],
               "named_files": {
                 "CHROMEDRIVER": "chromedriver-mac-x64/chromedriver"
@@ -538,9 +538,9 @@
           "rules_browsers_chromedriver_mac_arm": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "26463881a3b3133c9ca25045cbcf692c0c5a3546498de02841b17cc335f59e74",
+              "sha256": "8fe44ebac5303278a5d533c114ad0dbed0df9c218bce5b80d606078472ea95bd",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/mac-arm64/chromedriver-mac-arm64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/mac-arm64/chromedriver-mac-arm64.zip"
               ],
               "named_files": {
                 "CHROMEDRIVER": "chromedriver-mac-arm64/chromedriver"
@@ -554,9 +554,9 @@
           "rules_browsers_chromedriver_win64": {
             "repoRuleId": "@@rules_browsers+//browsers/private:browser_repo.bzl%browser_repo",
             "attributes": {
-              "sha256": "b59d5ae7b1b7771a07fce23d7c8e2e61ea2f91216717763242fd942854ac4324",
+              "sha256": "1fadd71af32db4e3497ce4faac3f07503f4c4cdad8747e71ff62c5c9c3dd05e1",
               "urls": [
-                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8093.0/win64/chromedriver-win64.zip"
+                "https://storage.googleapis.com/chrome-for-testing-public/157.0.8099.0/win64/chromedriver-win64.zip"
               ],
               "named_files": {
                 "CHROMEDRIVER": "chromedriver-win64/chromedriver.exe"
@@ -1052,7 +1052,7 @@
   },
   "facts": {
     "@@aspect_rules_js+//npm:extensions.bzl%pnpm": {
-      "exe:12.10.1": "{\"darwin-arm64\":\"sha512-0O8tdQ8ijlPJudXspLMTcitMkdBEz6uUflazL5uQE0WMs85oQIp0U+5hfEktMFB64QqEhjqlvvujTwbzdr9oMg==\",\"darwin-x64\":\"sha512-ud+1/uZOKEo8P/AsPynOJc/LNwfI0j6WwCElibj71rU9l4nIBnsSn+wWTIPZPkZ4BBSH5+82azSnAARMyJ1lNA==\",\"linux-arm64\":\"sha512-oBdMp69ScC9UnniG4qZAQVr2fBDSXjm4yk/72vkEVyrlwS23yMxcRQl7Qdo3sgXPAygY6TWnPRKm4rXzjoyW7w==\",\"linux-arm64-musl\":\"sha512-xba+00wZJ8Um6rBJJjWl88uJj0tydB8dtomvjlCLvi0uL32vpa9CRP8Vv26FIXvbiZ1bo2RCzYt/eChxJVV52w==\",\"linux-x64\":\"sha512-ZByV0DRgWzGaDSjT5ddRBASdwz+r/qPMYh7o6RGmPQjtRGNFbSl94xY2DcAM8mqCOZJUUDtAXQ+wpBXcdpKlkg==\",\"linux-x64-musl\":\"sha512-e6IqzVNkPa7srFKJKnY23uWJ+qz0LaRWiTUo/sHfFXRRMRzB5uNOr6qWWip/jqhdGwU91n9J7LrEYZ6e0tRczw==\",\"win32-arm64\":\"sha512-I7QZHcjioG7orFeCRUFUHByJ1G0zFPnAlaGGyrUvb6MGkv5oeNwNPl7t+Gp+7zHfnMcgLGJ1a+Wfim0IDw3lOw==\",\"win32-x64\":\"sha512-4WJFdp58EKlCj0zLobrXU0vpszSZIr4X/3y/uNbAQqGW0zE+VdruZB0gFc3L2kzsUzVwTYbaCn+XEhnCYSAlTg==\"}"
+      "exe:12.11.2": "{\"darwin-arm64\":\"sha512-n9M4On66y8FDxUAKgMO1FXt0qihyG4e+56p3/F0uo8Bx9KplW8BwKVnXigzCJ8aNM6sVVPkOE6M9XXbeVIxnZA==\",\"darwin-x64\":\"sha512-oSW7n3sBT0c0cyk4kj10T2Y6Mpm+OFEiCAWozgX039tdoI6yqJF1uaFD3sw7ugLdu6VV3+uY0pa1TUZIPdxDWA==\",\"linux-arm64\":\"sha512-6e8ZAQUwFXAWHHHv5FesWqf/kEK04wuitBv5f/gxzkC0DiBfaixr+f+6JQede8SF4Ji5LcMwVFJbzAtffpWxEg==\",\"linux-arm64-musl\":\"sha512-uMEYDwKRktGwANubQ+kYCwmhNwg3Ik6qK89ahsbQ5cP30R/5FVJb/T99vr9XRUBC/A7mZI6eeT92oyVas9ACyg==\",\"linux-x64\":\"sha512-FK7QKe24AYgppJwO3mpooYptduuvIGqKJPi5ac7MdnWkjUy46JBfYhCW0grnkWKC8YOf0x+vGviuQqJEj3SpQQ==\",\"linux-x64-musl\":\"sha512-7eIxQR05fvJxCujUSKp5KTtehJ7QqrgqP/HD1+BcB/SaV2Be4XI1PEHiOgA1zxsiMIeMvTF6E4G4dYHrFjeXRg==\",\"win32-arm64\":\"sha512-PCTjVDdJb6VvraZxrEeFv6EqEA0hhIsAySx28e95J2Tqpi88hLpgOXgNqV0vpxq9A+b8GLQfyk/D+1UlJPv/YQ==\",\"win32-x64\":\"sha512-8sgX86OvRjJ3yZs/TvGR2L31wH9ScPZ+f+geKI3ikuB0RRiK3i4LlTRO8OXN6pdRqj8epMde4312MCjj7JsJdA==\"}"
     },
     "@@aspect_tools_telemetry+//:extension.bzl%telemetry": {
       "notice_version": "3"
